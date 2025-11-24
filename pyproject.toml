@@ -6,7 +6,9 @@ authors = ["faker <tatsu.ino1202@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "~3.11.12"
+spacy = "^3.8.11"
+ja-ginza = "^5.2.0"
 pandas = "^2.3.3"
 
 
