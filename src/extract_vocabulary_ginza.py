@@ -5,7 +5,7 @@ import sys
 from typing import Dict, List, Set
 
 import pandas as pd
-from tqdm import tqdm  # 処理の進捗を表示するためにtqdmをインポート
+from tqdm import tqdm
 
 # --- GiNZA/spaCyのインポートとロードの試行 ---
 # 環境に依存するため、try-exceptでエラーを回避

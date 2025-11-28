@@ -10,6 +10,11 @@ python = "~3.11.12"
 spacy = "^3.8.11"
 ja-ginza = "^5.2.0"
 pandas = "^2.3.3"
+sudachipy = "^0.6.10"
+sudachidict-core = "^20251022"
+transformers = "^4.57.1"
+torch = "^2.9.1"
+sentencepiece = "^0.2.1"
 
 
 [build-system]
