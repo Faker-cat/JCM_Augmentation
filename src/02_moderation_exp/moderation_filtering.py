@@ -84,6 +84,32 @@ def extract_explicit_ng(df, output_dir):
     print(f" - ターゲットC (明白なNG候補): {len(target_df)}件 -> {output_file}")
 
 
+# --- ターゲットD (安全なOK) を抽出する関数 ---
+def extract_safe_ok(df, output_dir):
+    """
+    JCM=OK かつ Moderation=Safe のデータを抽出して保存する関数
+    """
+    output_file = os.path.join(output_dir, "target_D.csv")
+
+    # データ型を念のため確認・変換 (Target Cと同様の処理)
+    if df["moderation_flagged"].dtype == object:
+        df["moderation_flagged"] = df["moderation_flagged"].map(
+            {"True": True, "False": False, "TRUE": True, "FALSE": False}
+        )
+
+    # 抽出ロジック
+    # 条件1: JCMのラベルが 0 (OK/許容できる)
+    # 条件2: Moderation APIが False (Safe/問題なし)
+    target_df = df[
+        (df["original_label"] == 0) & (df["moderation_flagged"] == False)
+    ].copy()
+
+    # 保存
+    target_df.to_csv(output_file, index=False, encoding="utf-8")
+
+    print(f" - ターゲットD (安全なOK): {len(target_df)}件 -> {output_file}")
+
+
 # --- メイン処理 ---
 def main():
     # データの読み込み
@@ -186,6 +212,9 @@ def main():
 
     # 4. ターゲットC (candidates_explicit_ng.csv) - 関数呼び出し
     extract_explicit_ng(result_df, output_dir)
+
+    # 5. ターゲットD (target_D.csv) - 関数呼び出し
+    extract_safe_ok(result_df, output_dir)
 
     print("\nすべての処理が完了しました。")
 
