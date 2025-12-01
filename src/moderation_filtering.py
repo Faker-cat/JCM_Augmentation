@@ -19,14 +19,6 @@ if not client.api_key:
     print(".envファイルを作成するか、exportコマンドで設定してください。")
     exit()
 
-# データの読み込み
-input_file = "data/01_raw/JCM_original.csv"
-if not os.path.exists(input_file):
-    print(f"エラー: 入力ファイルが見つかりません: {input_file}")
-    exit()
-
-df = pd.read_csv(input_file)
-print(f"全データ数: {len(df)}件")
 
 # --- 設定 (有料アカウント向けに高速化) ---
 # Moderation APIは無料ですが、有料アカウント(Tier1以上)ならレート制限が緩和されます。
@@ -65,92 +57,138 @@ def check_moderation_batch(texts, max_retries=MAX_RETRIES):
     return None
 
 
-# --- バッチ処理ループ ---
-results = []
+# --- ターゲットC (明白なNG) を抽出する関数 ---
+def extract_explicit_ng(df, output_dir):
+    """
+    JCM=NG かつ Moderation=Flagged のデータを抽出して保存する関数
+    """
+    output_file = os.path.join(output_dir, "target_C.csv")
 
-# バッチ数の計算
-num_batches = math.ceil(len(df) / BATCH_SIZE)
+    # データ型を念のため確認・変換 (CSVから読み込んだ場合の文字列'TRUE'/'FALSE'対策)
+    if df["moderation_flagged"].dtype == object:
+        df["moderation_flagged"] = df["moderation_flagged"].map(
+            {"True": True, "False": False, "TRUE": True, "FALSE": False}
+        )
+        # マッピングできなかった値(NaN)があればFalse埋めなどする、今回は簡易的に欠損除去等はしない
 
-print(f"処理を開始します (全 {num_batches} バッチ / {len(df)} 件)...")
+    # 抽出ロジック
+    # 条件1: JCMのラベルが 1 (NG/許容できない)
+    # 条件2: Moderation APIが True (Flagged/違反あり)
+    target_df = df[
+        (df["original_label"] == 1) & (df["moderation_flagged"] == True)
+    ].copy()
 
-for i in tqdm(range(num_batches)):
-    start_idx = i * BATCH_SIZE
-    end_idx = start_idx + BATCH_SIZE
+    # 保存
+    target_df.to_csv(output_file, index=False, encoding="utf-8")
 
-    # バッチ切り出し
-    batch_df = df.iloc[start_idx:end_idx]
-    batch_texts = batch_df["sent"].tolist()
+    print(f" - ターゲットC (明白なNG候補): {len(target_df)}件 -> {output_file}")
 
-    # API呼び出し
-    batch_results = check_moderation_batch(batch_texts)
 
-    if batch_results:
-        # 結果の紐付け
-        for j, mod_res in enumerate(batch_results):
-            original_row = batch_df.iloc[j]
-            label = original_row["label"]
-            text = original_row["sent"]
-            original_idx = batch_df.index[j]
+# --- メイン処理 ---
+def main():
+    # データの読み込み
+    input_file = "data/01_raw/JCM_original.csv"
+    if not os.path.exists(input_file):
+        print(f"エラー: 入力ファイルが見つかりません: {input_file}")
+        return
 
-            # --- 分類ロジック ---
-            # Type A: JCM=1(NG) だが API=Safe -> 潜在的な曖昧/情報欠落候補
-            is_type_a = (label == 1) and (not mod_res.flagged)
+    df = pd.read_csv(input_file)
+    print(f"全データ数: {len(df)}件")
 
-            # Type B: JCM=0(OK) だが API=Flagged -> 文脈依存の暴力/過激表現候補
-            is_type_b = (label == 0) and (mod_res.flagged)
+    # バッチ処理ループ
+    results = []
 
-            results.append(
-                {
-                    "ID": original_idx + 1,
-                    "sent": text,
-                    "original_label": label,
-                    "moderation_flagged": mod_res.flagged,
-                    "is_ambiguous_candidate": is_type_a,  # ターゲットA
-                    "is_contextual_safety": is_type_b,  # ターゲットB
-                    "scores": mod_res.category_scores.model_dump(),
-                }
-            )
-    else:
-        print(f"Skipping batch {i} due to errors.")
+    # バッチ数の計算
+    num_batches = math.ceil(len(df) / BATCH_SIZE)
 
-    # 待機時間 (有料アカウントなら短くてOK)
-    time.sleep(0.5)
+    print(f"処理を開始します (全 {num_batches} バッチ / {len(df)} 件)...")
 
-# --- 結果の保存 ---
-result_df = pd.DataFrame(results)
+    for i in tqdm(range(num_batches)):
+        start_idx = i * BATCH_SIZE
+        end_idx = start_idx + BATCH_SIZE
 
-# 保存先
-output_dir = "data/02_prepared_for_eval"
-os.makedirs(output_dir, exist_ok=True)
+        # バッチ切り出し
+        batch_df = df.iloc[start_idx:end_idx]
+        batch_texts = batch_df["sent"].tolist()
 
-# 1. 全結果 (moderation_full_results.csv)
-result_df.to_csv(
-    os.path.join(output_dir, "moderation_full_results.csv"),
-    index=False,
-    encoding="utf-8",
-)
+        # API呼び出し
+        batch_results = check_moderation_batch(batch_texts)
 
-# 2. ターゲットA (candidates_ambiguous_ng.csv)
-candidates_a = result_df[result_df["is_ambiguous_candidate"] == True]
-candidates_a.to_csv(
-    os.path.join(output_dir, "candidates_ambiguous_ng.csv"),
-    index=False,
-    encoding="utf-8",
-)
+        if batch_results:
+            # 結果の紐付け
+            for j, mod_res in enumerate(batch_results):
+                original_row = batch_df.iloc[j]
+                label = original_row["label"]
+                text = original_row["sent"]
+                original_idx = batch_df.index[j]
 
-# 3. ターゲットB (candidates_contextual_ok.csv)
-candidates_b = result_df[result_df["is_contextual_safety"] == True]
-candidates_b.to_csv(
-    os.path.join(output_dir, "candidates_contextual_ok.csv"),
-    index=False,
-    encoding="utf-8",
-)
+                # --- 分類ロジック ---
+                # Type A: JCM=1(NG) だが API=Safe -> 潜在的な曖昧/情報欠落候補
+                is_type_a = (label == 1) and (not mod_res.flagged)
 
-print("\n✅ 処理完了:")
-print(f" - 全データ処理数: {len(result_df)} / {len(df)}")
-print(
-    f" - ターゲットA（曖昧なNG候補）: {len(candidates_a)}件 -> {output_dir}/candidates_ambiguous_ng.csv"
-)
-print(
-    f" - ターゲットB（文脈依存OK候補）: {len(candidates_b)}件 -> {output_dir}/candidates_contextual_ok.csv"
-)
+                # Type B: JCM=0(OK) だが API=Flagged -> 文脈依存の暴力/過激表現候補
+                is_type_b = (label == 0) and (mod_res.flagged)
+
+                results.append(
+                    {
+                        "ID": original_idx + 1,
+                        "sent": text,
+                        "original_label": label,
+                        "moderation_flagged": mod_res.flagged,
+                        "is_ambiguous_candidate": is_type_a,  # ターゲットA
+                        "is_contextual_safety": is_type_b,  # ターゲットB
+                        "scores": mod_res.category_scores.model_dump(),
+                    }
+                )
+        else:
+            print(f"Skipping batch {i} due to errors.")
+
+        # 待機時間 (有料アカウントなら短くてOK)
+        time.sleep(0.5)
+
+    # --- 結果の保存 ---
+    result_df = pd.DataFrame(results)
+
+    # 保存先
+    output_dir = "data/02_prepared_for_eval"
+    os.makedirs(output_dir, exist_ok=True)
+
+    # 1. 全結果 (moderation_full_results.csv)
+    result_df.to_csv(
+        os.path.join(output_dir, "moderation_full_results.csv"),
+        index=False,
+        encoding="utf-8",
+    )
+
+    print("\n✅ API処理完了。ファイルを生成します...")
+
+    # 2. ターゲットA (candidates_ambiguous_ng.csv)
+    candidates_a = result_df[result_df["is_ambiguous_candidate"] == True]
+    candidates_a.to_csv(
+        os.path.join(output_dir, "target_A.csv"),
+        index=False,
+        encoding="utf-8",
+    )
+    print(
+        f" - ターゲットA（曖昧なNG候補）: {len(candidates_a)}件 -> {output_dir}/target_A.csv"
+    )
+
+    # 3. ターゲットB (candidates_contextual_ok.csv)
+    candidates_b = result_df[result_df["is_contextual_safety"] == True]
+    candidates_b.to_csv(
+        os.path.join(output_dir, "target_B.csv"),
+        index=False,
+        encoding="utf-8",
+    )
+    print(
+        f" - ターゲットB（文脈依存OK候補）: {len(candidates_b)}件 -> {output_dir}/target_B.csv"
+    )
+
+    # 4. ターゲットC (candidates_explicit_ng.csv) - 関数呼び出し
+    extract_explicit_ng(result_df, output_dir)
+
+    print("\nすべての処理が完了しました。")
+
+
+if __name__ == "__main__":
+    main()
