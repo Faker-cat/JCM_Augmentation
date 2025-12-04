@@ -23,18 +23,18 @@ SRC_PATH="/home/faker/JCM_Augmentation/src/03_model_selection/eval_zeroshot_jcm.
 #     --gpu_memory_utilization 0.95 \
 #     --limit 5 Qwen/Qwen2.5-Coder-32B-Instruct
 
-CUDA_VISIBLE_DEVICES=0,1 NCCL_P2P_DISABLE=1 poetry run python $SRC_PATH \
-    --model_path "Qwen/Qwen3-Coder-30B-A3B-Instruct" \
-    --tensor_parallel_size 2 \
-    --gpu_memory_utilization 0.95 \
-    --limit 5
+# CUDA_VISIBLE_DEVICES=0,1 NCCL_P2P_DISABLE=1 poetry run python $SRC_PATH \
+#     --model_path "Qwen/Qwen2.5-32B-Instruct-AWQ" \
+#     --tensor_parallel_size 2 \
+#     --gpu_memory_utilization 0.95 \
+#     --limit 5
 
 # # 3. Llama-3.1-Swallow-70B (GPU 2枚推奨)
-# echo "Running evaluation for Llama-3.1-Swallow-70B..."
-# python $SRC_PATH \
-#     --model_path "tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3" \
-#     --tensor_parallel_size 2 \
-#     --limit 5
+echo "Running evaluation for Llama-3.1-Swallow-70B..."
+python $SRC_PATH \
+    --model_path "tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3" \
+    --tensor_parallel_size 2 \
+    --limit 5
 
 # # 4. Qwen3-Next-80B (GPU 2~3枚推奨)
 # echo "Running evaluation for Qwen3-Next-80B..."
