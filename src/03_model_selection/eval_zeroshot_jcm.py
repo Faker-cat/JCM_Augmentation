@@ -154,7 +154,7 @@ def main():
 
     os.makedirs(save_dir, exist_ok=True)
 
-    result_csv_path = os.path.join(save_dir, "prediction_results_ex.csv")
+    result_csv_path = os.path.join(save_dir, "prediction_results.csv")
     df.to_csv(result_csv_path, index=False)
     print(f"Detailed results saved to {result_csv_path}")
 
