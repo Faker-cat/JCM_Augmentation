@@ -109,6 +109,7 @@ def main():
             trust_remote_code=True,
             gpu_memory_utilization=args.gpu_memory_utilization,
             max_model_len=2048,
+            enforce_eager=True,
         )
     except Exception as e:
         print(f"Failed to load model: {e}")

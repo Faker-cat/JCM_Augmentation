@@ -1,0 +1,8 @@
+{
+    "model": "tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4",
+    "accuracy": 0.8962925851703407,
+    "precision": 0.8917025862068966,
+    "recall": 0.8859743040685225,
+    "f1_score": 0.888829215896885,
+    "parse_error_rate": 0.0
+}

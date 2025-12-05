@@ -30,11 +30,11 @@ SRC_PATH="/home/faker/JCM_Augmentation/src/03_model_selection/eval_zeroshot_jcm.
 #     --limit 5
 
 # # 3. Llama-3.1-Swallow-70B (GPU 2枚推奨)
-echo "Running evaluation for Llama-3.1-Swallow-70B..."
-python $SRC_PATH \
-    --model_path "tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3" \
-    --tensor_parallel_size 2 \
-    --limit 5
+# echo "Running evaluation for Llama-3.1-Swallow-70B..."
+# python $SRC_PATH \
+#     --model_path "tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4" \
+#     --tensor_parallel_size 4 \
+#     --limit 5
 
 # # 4. Qwen3-Next-80B (GPU 2~3枚推奨)
 # echo "Running evaluation for Qwen3-Next-80B..."
@@ -48,6 +48,21 @@ python $SRC_PATH \
 #     --model_path "openai/gpt-oss-120b" \
 #     --tensor_parallel_size 3
 
+# 新しいモデルを追加
+# echo "Running evaluation for NEW-MODEL..."
+# python $SRC_PATH \
+#     --model_path "tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.5" \
+#     --tensor_parallel_size 1 \
+#     --limit 5
+
+新しいモデルを追加
+echo "Running evaluation for NEW-MODEL..."
+python $SRC_PATH \
+    --model_path "openai/gpt-oss-20b" \
+    --tensor_parallel_size 1 \
+    --limit 5
+
+    
 # 新しいモデルを追加
 # echo "Running evaluation for NEW-MODEL..."
 # python $SRC_PATH \
