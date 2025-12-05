@@ -1,0 +1,8 @@
+{
+    "model": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+    "accuracy": 0.9108216432865731,
+    "precision": 0.8941605839416058,
+    "recall": 0.9180942184154176,
+    "f1_score": 0.9059693608029583,
+    "parse_error_rate": 0.0
+}
