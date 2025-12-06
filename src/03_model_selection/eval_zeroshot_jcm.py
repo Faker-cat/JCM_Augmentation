@@ -1,3 +1,4 @@
+# JCMテストデータを用いたLLMのゼロショット評価スクリプト（vLLM版）
 import argparse
 import json
 import os
@@ -26,7 +27,7 @@ def parse_args():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="/home/faker/JCM_Augmentation/data/03_model_selection",
+        default="/home/faker/JCM_Augmentation/data/03_model_selection/eval_zeroshot",
         help="Directory to save results",
     )
     parser.add_argument(
@@ -109,7 +110,7 @@ def main():
             trust_remote_code=True,
             gpu_memory_utilization=args.gpu_memory_utilization,
             max_model_len=2048,
-            enforce_eager=True,
+            enforce_eager=False,
         )
     except Exception as e:
         print(f"Failed to load model: {e}")
