@@ -18,7 +18,7 @@ def parse_args():
     parser.add_argument(
         "--input_path",
         type=str,
-        default="data/03_model_selection/曖昧文章_ランダム10件.csv",
+        default="data/03_model_selection/ambiguous_sentences_random_10.csv",
         help="Path to the input CSV file",
     )
     parser.add_argument(
@@ -126,11 +126,20 @@ def main():
     )
 
     # サンプリングパラメータ (少し創造性を持たせるためtemperatureを入れるが、あまり高くしすぎない)
+    # sampling_params = SamplingParams(
+    #     temperature=0.7,
+    #     top_p=0.9,
+    #     max_tokens=512,  # 文脈付与なら少し長めの方が安全かもしれません
+    #     stop=["<|eot_id|>", "<|end_of_text|>"],  # Llama-3用に修正
+    # )
+
+    # Qwen2.5用の設定（<|im_end|>に戻す）
     sampling_params = SamplingParams(
         temperature=0.7,
         top_p=0.9,
-        max_tokens=512,  # 文脈付与なら少し長めの方が安全かもしれません
-        stop=["<|eot_id|>", "<|end_of_text|>"],  # Llama-3用に修正
+        max_tokens=512,
+        # Qwen/ChatML形式のstopトークンを指定
+        stop=["<|endoftext|>", "<|im_end|>"],
     )
 
     # 3. 推論実行
