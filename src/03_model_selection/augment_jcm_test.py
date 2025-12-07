@@ -121,7 +121,7 @@ def main():
         tensor_parallel_size=args.tensor_parallel_size,
         trust_remote_code=True,
         gpu_memory_utilization=args.gpu_memory_utilization,
-        max_model_len=8192,
+        max_model_len=2048,
         enforce_eager=args.enforce_eager,  # メモリ対策設定を反映
     )
 
@@ -129,8 +129,8 @@ def main():
     sampling_params = SamplingParams(
         temperature=0.7,
         top_p=0.9,
-        max_tokens=256,
-        stop=["<|endoftext|>", "<|im_end|>"],  # Qwenなどの終了トークン
+        max_tokens=512,  # 文脈付与なら少し長めの方が安全かもしれません
+        stop=["<|eot_id|>", "<|end_of_text|>"],  # Llama-3用に修正
     )
 
     # 3. 推論実行
@@ -145,7 +145,11 @@ def main():
 
     # 5. 保存
     os.makedirs(args.output_dir, exist_ok=True)
-    output_file = os.path.join(args.output_dir, "augmented_results_10samples.csv")
+    model_name = os.path.basename(os.path.normpath(args.model_path))
+
+    # ファイル名にモデル名を付与
+    output_filename = f"{model_name}_augmented_results_10samples.csv"
+    output_file = os.path.join(args.output_dir, output_filename)
 
     # 見やすいようにカラム順序を整理
     cols = ["Original_ID", "label", "sent", "augmented_text"]
