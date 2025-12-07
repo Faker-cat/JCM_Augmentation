@@ -126,6 +126,7 @@ def main():
     )
 
     # サンプリングパラメータ (少し創造性を持たせるためtemperatureを入れるが、あまり高くしすぎない)
+    # Llama-3-Swallow 用の設定
     # sampling_params = SamplingParams(
     #     temperature=0.7,
     #     top_p=0.9,
@@ -134,13 +135,13 @@ def main():
     # )
 
     # Qwen用の設定（<|im_end|>に戻す）
-    # sampling_params = SamplingParams(
-    #     temperature=0.7,
-    #     top_p=0.9,
-    #     max_tokens=512,
-    #     # Qwen/ChatML形式のstopトークンを指定
-    #     stop=["<|endoftext|>", "<|im_end|>"],
-    # )
+    sampling_params = SamplingParams(
+        temperature=0.7,
+        top_p=0.9,
+        max_tokens=512,
+        # Qwen/ChatML形式のstopトークンを指定
+        stop=["<|endoftext|>", "<|im_end|>"],
+    )
 
     # llm-jp-3用設定
     # sampling_params = SamplingParams(
@@ -152,13 +153,13 @@ def main():
     # )
 
     # OpenAI系や標準的なモデルの設定
-    sampling_params = SamplingParams(
-        temperature=0.7,
-        top_p=0.9,
-        max_tokens=512,
-        # 一般的なEOSトークン
-        stop=["<|endoftext|>"],
-    )
+    # sampling_params = SamplingParams(
+    #     temperature=0.7,
+    #     top_p=0.9,
+    #     max_tokens=512,
+    #     # 一般的なEOSトークン
+    #     stop=["<|endoftext|>"],
+    # )
 
     # 3. 推論実行
     print("Generating responses...")
