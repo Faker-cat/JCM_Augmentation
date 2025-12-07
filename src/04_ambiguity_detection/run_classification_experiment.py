@@ -244,37 +244,43 @@ def run_experiment():
     recall = recall_score(y_true, y_pred, pos_label=True, zero_division=0)
     f1 = f1_score(y_true, y_pred, pos_label=True, zero_division=0)
 
-    print("\n=== 実験結果レポート ===")
-    print(f"Model: {MODEL_ID}")
-    print(f"Phase 1 Filtered: {len(df_res[df_res['phase'] == 'Phase 1 (Filter)'])}")
-    print("-" * 30)
-    print("Confusion Matrix (Target: Ambiguous/True):")
-    print(f" TP: {tp}, FN: {fn}")
-    print(f" FP: {fp}, TN: {tn}")
-    print("-" * 30)
-    print(f"Accuracy : {accuracy:.4f}")
-    print(f"Precision: {precision:.4f}")
-    print(f"Recall   : {recall:.4f}")
-    print(f"F1 Score : {f1:.4f}")
+    # レポート作成（文字列として保持）
+    report = []
+    report.append("=== 実験結果レポート ===")
+    report.append(f"Model: {MODEL_ID}")
+    report.append(f"Total Samples: {len(df)}")
+    report.append(
+        f"Phase 1 Filtered: {len(df_res[df_res['phase'] == 'Phase 1 (Filter)'])}"
+    )
+    report.append("-" * 30)
+    report.append("Confusion Matrix (Target: Ambiguous/True):")
+    report.append(f" TP: {tp}, FN: {fn}")
+    report.append(f" FP: {fp}, TN: {tn}")
+    report.append("-" * 30)
+    report.append(f"Accuracy : {accuracy}")
+    report.append(f"Precision: {precision}")
+    report.append(f"Recall   : {recall}")
+    report.append(f"F1 Score : {f1}")
 
-    # 保存
+    report_text = "\n".join(report)
+
+    # 標準出力
+    print("\n" + report_text)
+
+    # 保存ディレクトリ作成
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
+    # 1. CSV保存
     output_csv = os.path.join(OUTPUT_DIR, "ambiguity_detection_results_llmjp.csv")
     df_res.to_csv(output_csv, index=False, encoding="utf-8-sig")
-    print(f"\n結果を保存しました: {output_csv}")
+    print(f"\n結果CSVを保存しました: {output_csv}")
 
-    # メトリクスファイル
-    with open(
-        os.path.join(OUTPUT_DIR, "metrics_llmjp.txt"), "w", encoding="utf-8"
-    ) as f:
-        f.write(f"Model: {MODEL_ID}\n")
-        f.write(f"Accuracy: {accuracy}\n")
-        f.write(f"Precision: {precision}\n")
-        f.write(f"Recall: {recall}\n")
-        f.write(f"F1 Score: {f1}\n")
-        f.write(f"Confusion Matrix: TP:{tp}, FN:{fn}, FP:{fp}, TN:{tn}\n")
+    # 2. レポートテキスト保存 (要望箇所)
+    report_path = os.path.join(OUTPUT_DIR, "experiment_report.txt")
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write(report_text)
+    print(f"結果レポートを保存しました: {report_path}")
 
 
 if __name__ == "__main__":
