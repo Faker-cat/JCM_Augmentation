@@ -5,7 +5,7 @@ import pandas as pd
 # --- 設定 ---
 INPUT_FILE = "/home/faker/JCM_Augmentation/data/00_raw/JCM_original.csv"
 OUTPUT_FILE = (
-    "/home/faker/JCM_Augmentation/data/01_ground_truth/JCM_random_1000_sample_ex.csv"
+    "/home/faker/JCM_Augmentation/data/01_ground_truth/JCM_random_1000_sample.csv"
 )
 
 # サンプリングする件数
@@ -58,7 +58,7 @@ def create_random_sample_csv():
 
     # 保存したい列のリスト作成 (ID, Original_ID, 文章)
     # ※ここで 'label' を含めないことで、元ラベルを除外します
-    target_columns = ["ID", "Original_ID", "sent"]
+    target_columns = ["ID", "Original_ID", "sent", "label"]
 
     # 評価者の入力欄を追加
     for evaluator in EVALUATORS:
