@@ -1,4 +1,4 @@
 .env
-data/03_model_selection/augmentation_test/logs
 data/03_model_selection/eval_zeroshot/logs
+data/03_model_selection/augmentation_test/logs
 nohup.out

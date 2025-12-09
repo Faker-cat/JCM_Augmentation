@@ -62,13 +62,19 @@ def create_prompt(text, label, tokenizer):
 
     system_message = "あなたは日本語の編集者です。与えられた短い文章に対して、道徳的な判断が一意に定まるように情報を補足し、リライトしてください。"
 
+    # 制約事項に文字数と文数の制限を追加
     user_message = f"""以下の「元の文章」は、情報不足のため道徳的な判断が困難です。
 元の文章の文脈を維持しつつ、指定された「正解ラベル」の通りに判断できるよう、必要な前提条件や状況を書き加えてください。
 
 # 制約事項
 1. 出力は「修正後の文章」のみにしてください。解説や「はい、承知しました」などの返事は不要です。
-2. 元の文章の核となる行動は変えないでください。
-3. 日本語として自然な文章にしてください。
+2. **文字数は「45文字以内」に厳守してください。**
+3. **複数の文に分けず、必ず「一文」で完結させてください。**
+4. **「毒を盛る」「殴る」「投げる」「殺す」「撃つ」「麻薬」「爆弾」「騙す」「盗む」「嘘」などの明らかに間違ってることが
+わかる用語は避けてください。**
+5.**中絶や死刑、安楽死など、政治的、道徳的に意見が分かれそうなものは避けてください。**
+6. 元の文章の核となる行動は変えないでください。
+7. 日本語として自然な文章にしてください。
 
 # 入力情報
 元の文章: {text}
@@ -83,7 +89,7 @@ def create_prompt(text, label, tokenizer):
         {"role": "user", "content": user_message},
     ]
 
-    # tokenizerを使ってプロンプトを整形 (add_generation_prompt=Trueでアシスタントの開始タグまで付ける)
+    # tokenizerを使ってプロンプトを整形
     prompt = tokenizer.apply_chat_template(
         messages, tokenize=False, add_generation_prompt=True
     )
@@ -135,22 +141,22 @@ def main():
     # )
 
     # Qwen用の設定（<|im_end|>に戻す）
-    sampling_params = SamplingParams(
-        temperature=0.7,
-        top_p=0.9,
-        max_tokens=512,
-        # Qwen/ChatML形式のstopトークンを指定
-        stop=["<|endoftext|>", "<|im_end|>"],
-    )
-
-    # llm-jp-3用設定
     # sampling_params = SamplingParams(
     #     temperature=0.7,
     #     top_p=0.9,
     #     max_tokens=512,
-    #     # llm-jp-3のEOSトークンを含める
-    #     stop=["<|endoftext|>", "</s>", "<EOD>"],
+    #     # Qwen/ChatML形式のstopトークンを指定
+    #     stop=["<|endoftext|>", "<|im_end|>"],
     # )
+
+    # llm-jp-3用設定
+    sampling_params = SamplingParams(
+        temperature=0.7,
+        top_p=0.9,
+        max_tokens=512,
+        # llm-jp-3のEOSトークンを含める
+        stop=["<|endoftext|>", "</s>", "<EOD>"],
+    )
 
     # OpenAI系や標準的なモデルの設定
     # sampling_params = SamplingParams(
