@@ -141,22 +141,22 @@ def main():
     # )
 
     # Qwen用の設定（<|im_end|>に戻す）
-    # sampling_params = SamplingParams(
-    #     temperature=0.7,
-    #     top_p=0.9,
-    #     max_tokens=512,
-    #     # Qwen/ChatML形式のstopトークンを指定
-    #     stop=["<|endoftext|>", "<|im_end|>"],
-    # )
-
-    # llm-jp-3用設定
     sampling_params = SamplingParams(
         temperature=0.7,
         top_p=0.9,
         max_tokens=512,
-        # llm-jp-3のEOSトークンを含める
-        stop=["<|endoftext|>", "</s>", "<EOD>"],
+        # Qwen/ChatML形式のstopトークンを指定
+        stop=["<|endoftext|>", "<|im_end|>"],
     )
+
+    # llm-jp-3用設定
+    # sampling_params = SamplingParams(
+    #     temperature=0.7,
+    #     top_p=0.9,
+    #     max_tokens=512,
+    #     # llm-jp-3のEOSトークンを含める
+    #     stop=["<|endoftext|>", "</s>", "<EOD>"],
+    # )
 
     # OpenAI系や標準的なモデルの設定
     # sampling_params = SamplingParams(
