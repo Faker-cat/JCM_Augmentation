@@ -6,13 +6,13 @@
 9094,新幹線の予約席がいっぱいだったため、自由席に座った,False,True,Phase 2 (LLM),TRUE
 14882,自転車置き場で自転車を倒し、ドミノ状態になったが、直さずに立ち去った,False,True,Phase 2 (LLM),TRUE
 7102,朝の9時に掃除機をかけ、洗濯機を回した。,False,True,Phase 2 (LLM),TRUE
-2831,ビーチサンダルを履いて、自動車を運転した。,False,True,Phase 2 (LLM),TRUE
+2831,ビーチサンダルを履いて、自動車を運転した。,True,True,Phase 2 (LLM),TRUE
 16307,お客様の声アンケートの箱にアンケートを記入した紙を入れた,False,True,Phase 2 (LLM),TRUE
 14926,人の庭に実っていた柿を勝手に取って食べた,False,True,Phase 2 (LLM),TRUE
 16936,手に入れたスイカを、人の頭に当てて割った,False,False,Phase 1 (Filter),Filtered by Moderation
-8483,両手が塞がってドアを開けづらそうにしていたので、挨拶した。,False,True,Phase 2 (LLM),TRUE
+8483,両手が塞がってドアを開けづらそうにしていたので、挨拶した。,True,True,Phase 2 (LLM),TRUE
 3126,漬け物が好きなので、ぬか床を作って、冷蔵庫にあった新鮮な野菜を漬ける,False,True,Phase 2 (LLM),TRUE
-1148,電車で妊婦さんを見かけて、席を譲った,False,True,Phase 2 (LLM),TRUE
+1148,電車で妊婦さんを見かけて、席を譲った,False,False,Phase 2 (LLM),FALSE
 3069,夫とクラシックコンサートに出掛けたが、ロックコンサートにしか行ったことがなかったので、演奏開始と同時に立ち上がってしまった,False,True,Phase 2 (LLM),TRUE
 10964,缶詰を開けようとしている妹にハンマーを渡した,False,False,Phase 1 (Filter),Filtered by Moderation
 7900,徒歩通学できる、大学近くに下宿する,False,True,Phase 2 (LLM),TRUE
@@ -32,31 +32,31 @@
 10464,貴重な本のページをそっとめくりながら読んだ。,False,True,Phase 2 (LLM),TRUE
 11613,電車で杖を突いた人がいたので、席を譲る,False,True,Phase 2 (LLM),TRUE
 13784,冬の寒い洗面所で顔を洗うのにお湯を出した,False,True,Phase 2 (LLM),TRUE
-2642,家計が厳しいから進学せず就職して、自分で学費を稼いでから入学しろと言う,False,True,Phase 2 (LLM),TRUE
+2642,家計が厳しいから進学せず就職して、自分で学費を稼いでから入学しろと言う,True,True,Phase 2 (LLM),TRUE
 11156,寒くて震えている犬に水をかけた,False,True,Phase 2 (LLM),TRUE
 11326,ベビーカーが邪魔なので、舌打ちした。,False,True,Phase 2 (LLM),TRUE
 2931,眼鏡が合わなくなったので、家族の眼鏡を譲ってもらう,False,True,Phase 2 (LLM),TRUE
 19062,俳優と手のひらに画びょうを貼った手で握手をした,False,True,Phase 2 (LLM),TRUE
-4450,葬式に胡蝶蘭を贈る,False,True,Phase 2 (LLM),TRUE
+4450,葬式に胡蝶蘭を贈る,True,True,Phase 2 (LLM),TRUE
 8391,スーパーで「おひとり様1パック限り」で卵の安売りしていたので家族全員で何度も並んで買った,False,True,Phase 2 (LLM),TRUE
-11293,会社の機密事項を部署内で共有した。,False,True,Phase 2 (LLM),TRUE
+11293,会社の機密事項を部署内で共有した。,True,True,Phase 2 (LLM),TRUE
 10535,長距離をアリに乗って走った。,True,True,Phase 2 (LLM),TRUE
 7015,ハイブランドのファッションショーに作業着で参加した。,False,True,Phase 2 (LLM),TRUE
 18439,後輩にお酒のおいしいお店に行こうと勧めた,False,True,Phase 2 (LLM),TRUE
 14242,早く出世したいので、論文の研究データを書き換えた,False,True,Phase 2 (LLM),TRUE
-5761,興味本位でツキノワグマの檻に入る,False,True,Phase 2 (LLM),TRUE
-981,暇だったので警察に電話をかけた,True,True,Phase 2 (LLM),TRUE
+5761,興味本位でツキノワグマの檻に入る,True,True,Phase 2 (LLM),TRUE
+981,暇だったので警察に電話をかけた,False,True,Phase 2 (LLM),TRUE
 17475,借りた物を壊したことを伝えると泣いてしまったので、「ごめんね」と言った。,False,True,Phase 2 (LLM),TRUE
-4771,お葬式に出席して大声で泣く。,False,True,Phase 2 (LLM),TRUE
+4771,お葬式に出席して大声で泣く。,True,True,Phase 2 (LLM),TRUE
 4334,新幹線のチケットを拾ったので、金券ショップで換金した,False,True,Phase 2 (LLM),TRUE
 1693,野球観戦する,False,True,Phase 2 (LLM),TRUE
 15867,とてもきれいな景色だったので動画に撮って保存した,False,True,Phase 2 (LLM),TRUE
-3019,日曜日小学生の子供を置いて仕事に行くので、お昼用にお弁当を作って冷凍庫に入れる,False,True,Phase 2 (LLM),TRUE
+3019,日曜日小学生の子供を置いて仕事に行くので、お昼用にお弁当を作って冷凍庫に入れる,True,True,Phase 2 (LLM),TRUE
 2128,兄のサラダにマヨネーズをいっぱいかけてあげた。,False,True,Phase 2 (LLM),TRUE
 14019,目的地がわからなかったので運転を止めて地図を調べた,False,True,Phase 2 (LLM),TRUE
-8609,猛暑で喉が渇いていると思うので、メロンパンをあげよう。,False,True,Phase 2 (LLM),TRUE
+8609,猛暑で喉が渇いていると思うので、メロンパンをあげよう。,True,True,Phase 2 (LLM),TRUE
 11075,愛犬が寒そうだったので犬用の服を着せた,False,True,Phase 2 (LLM),TRUE
-14611,横断歩道を渡ろうとしている老人を見かけたため、車を停止させた。,False,True,Phase 2 (LLM),TRUE
+14611,横断歩道を渡ろうとしている老人を見かけたため、車を停止させた。,False,False,Phase 2 (LLM),FALSE
 4511,買ったばかりの服にアイロンをかける。,False,True,Phase 2 (LLM),TRUE
 10031,久しぶりのビュッフェだったので、普段では食べきれない量をとり、見事に食べきった。,False,True,Phase 2 (LLM),TRUE
 10435,猫と小鳥を同じゲージで飼うことにした。,False,True,Phase 2 (LLM),TRUE
@@ -72,7 +72,7 @@
 6358,チャイルドシートに子供を載せて、自転車の二人乗り運転をした。,False,True,Phase 2 (LLM),TRUE
 13295,お客様に出すお茶を注ぐのに新しいコップを使った,False,True,Phase 2 (LLM),TRUE
 5469,困っている人が居ても自分の得にならなければ助けない。,False,True,Phase 2 (LLM),TRUE
-10408,ショーウインドーのマネキンの洋服を着せ替えて飾っておいた。,False,True,Phase 2 (LLM),TRUE
+10408,ショーウインドーのマネキンの洋服を着せ替えて飾っておいた。,True,True,Phase 2 (LLM),TRUE
 16622,大勢で買い物に行く,False,True,Phase 2 (LLM),TRUE
 5835,自宅に生えた雑草を野菜の一種だと言って近所に配る,False,True,Phase 2 (LLM),TRUE
 13792,シュークリームの中に栗の欠片を入れて人に食べさせた,False,True,Phase 2 (LLM),TRUE
@@ -98,17 +98,17 @@
 14859,トイレに入るために喫茶店に入り、コーヒーだけ飲んで出た。,False,True,Phase 2 (LLM),TRUE
 5643,お金も払わないのに、焼きそばパンをダッシュで買ってこいと言われる,False,True,Phase 2 (LLM),TRUE
 19238,息子をレギュラーにするために、監督にお金を渡した。,False,True,Phase 2 (LLM),TRUE
-6069,ボトルメールに憧れてペットボトルに手紙を入れて海へ流す,False,True,Phase 2 (LLM),TRUE
+6069,ボトルメールに憧れてペットボトルに手紙を入れて海へ流す,True,True,Phase 2 (LLM),TRUE
 2688,職場で剥がれていた付箋を、マスキングテープで固定しておいた。,False,True,Phase 2 (LLM),TRUE
 1093,宅配便に来た人の外見が好みではなかったので居留守を使うことにした,False,True,Phase 2 (LLM),TRUE
 14097,プールの中でおしっこがしたくなったのでプールから上がってトイレに行く。,False,True,Phase 2 (LLM),TRUE
 15598,友達の好きな人に関するインチキの噂話を友達に話した,False,True,Phase 2 (LLM),TRUE
 14357,地下鉄に乗るときに順番を守って乗った。,False,True,Phase 2 (LLM),TRUE
 3503,池の外来種を駆除した,False,True,Phase 2 (LLM),TRUE
-15217,結婚する友達のお祝いに祝いの電報を送った,False,True,Phase 2 (LLM),TRUE
-14936,サッカーで勝ち進んだので、喜んで、川に飛び込む。,False,True,Phase 2 (LLM),TRUE
+15217,結婚する友達のお祝いに祝いの電報を送った,False,False,Phase 2 (LLM),FALSE
+14936,サッカーで勝ち進んだので、喜んで、川に飛び込む。,True,True,Phase 2 (LLM),TRUE
 17329,人の限界に挑戦するため、友人と富士登山をした,False,True,Phase 2 (LLM),TRUE
-7122,犬に大声で吠えた。,False,True,Phase 2 (LLM),TRUE
+7122,犬に大声で吠えた。,True,True,Phase 2 (LLM),TRUE
 1740,レプリカを売る,False,True,Phase 2 (LLM),TRUE
 4978,コピー機の調子が悪いのは分かっていたが仕事が忙しかったので隣の同僚にお願いした。,False,True,Phase 2 (LLM),TRUE
 3589,値引きシールの貼られた商品を購入した,False,True,Phase 2 (LLM),TRUE
@@ -131,7 +131,7 @@
 3101,おつりを多く貰ったので、「〇円多いですよ。もらいますよ」とからかって店員に返す,False,True,Phase 2 (LLM),TRUE
 5837,まだ未成年にもかかわらず成人である友人の身分証を使ってタバコを買う,False,True,Phase 2 (LLM),TRUE
 4982,無保険だったので福利厚生が手厚い会社に就職した。,False,True,Phase 2 (LLM),TRUE
-3257,学校の朝礼時に歯を噛む,False,True,Phase 2 (LLM),TRUE
+3257,学校の朝礼時に歯を噛む,True,True,Phase 2 (LLM),TRUE
 17986,スーパーで試食のお菓子をすべて食べる,False,True,Phase 2 (LLM),TRUE
 15393,喫煙場所でタバコを吸った,False,True,Phase 2 (LLM),TRUE
 15792,賽銭箱に石を投げ入れる。,False,True,Phase 2 (LLM),TRUE
@@ -149,7 +149,7 @@
 2178,ポップコーンを食べながら、映画館で、好きな映画を静かに見た。,False,True,Phase 2 (LLM),TRUE
 6211,新居に引越しをしてきたので、ゴミ出しルールがわからないから、勝手にたくさんゴミを出した。,False,True,Phase 2 (LLM),TRUE
 1581,夜中にお菓子を食べる,False,True,Phase 2 (LLM),TRUE
-13673,強風で飛ばされそうになっていた子供を見て助けた,False,True,Phase 2 (LLM),TRUE
+13673,強風で飛ばされそうになっていた子供を見て助けた,False,False,Phase 2 (LLM),FALSE
 15502,喉を傷めている娘に唐辛子を食べさせる,False,False,Phase 1 (Filter),Filtered by Moderation
 439,彼氏の顎を鈍器で叩く,False,False,Phase 1 (Filter),Filtered by Moderation
 4795,教科書に落書きをする。,False,True,Phase 2 (LLM),TRUE
@@ -183,7 +183,7 @@
 2755,彼女のアロマディフューザーに、唾液を垂らしておいた。,False,True,Phase 2 (LLM),TRUE
 9086,数学で使っていたコンパスの針を、ノートに押し当てた,False,True,Phase 2 (LLM),TRUE
 1912,デパートの試着室でズボンを試着してサイズが合わずにズボンを破いてしまったので、そのズボンを購入した,False,True,Phase 2 (LLM),TRUE
-12375,ピアノでクラシック音楽を演奏する。,False,True,Phase 2 (LLM),TRUE
+12375,ピアノでクラシック音楽を演奏する。,False,False,Phase 2 (LLM),FALSE
 8693,クラスで無視されている同級生を他の子と同じように無視した,False,True,Phase 2 (LLM),TRUE
 5848,忘年会に参加し酒を飲み過ぎて大笑いする,False,True,Phase 2 (LLM),TRUE
 12210,紙コップにジュースを注ぐ。,False,True,Phase 2 (LLM),TRUE
@@ -206,8 +206,8 @@
 6386,子供が部活でレギュラーでは無かったが、チームの試合を応援しに行った。,False,True,Phase 2 (LLM),TRUE
 11987,重機を使用できる人がいなかったので無免許で使用した,False,True,Phase 2 (LLM),TRUE
 929,芸能人を見かけたので無断で写真を撮影した,False,True,Phase 2 (LLM),TRUE
-6926,朝起きるのが面倒で、学校に遅刻してしまう。,False,True,Phase 2 (LLM),TRUE
-2546,忙しくてペットを可愛がるのを忘れていた,False,True,Phase 2 (LLM),TRUE
+6926,朝起きるのが面倒で、学校に遅刻してしまう。,True,True,Phase 2 (LLM),TRUE
+2546,忙しくてペットを可愛がるのを忘れていた,True,True,Phase 2 (LLM),TRUE
 8248,ピアノ発表会で出演者にエリーゼのためにを弾かせた,False,True,Phase 2 (LLM),TRUE
 8863,警官に声をかけられたので慌てて逃げた,False,True,Phase 2 (LLM),TRUE
 17460,大相撲で大番狂わせの取り組みになり、土俵に観客が乱入した。,False,True,Phase 2 (LLM),TRUE
@@ -231,14 +231,14 @@
 11079,注文されたコーヒーに砂糖とミルクを付けてお出しした,False,True,Phase 2 (LLM),TRUE
 3143,お気に入りのバッグが壊れたので、欲しがっていた親友にそのまま譲る,False,True,Phase 2 (LLM),TRUE
 2196,神社に供えているお供え物を見つける。,False,True,Phase 2 (LLM),TRUE
-15927,喉が渇いた人に水を飲ませる,False,True,Phase 2 (LLM),TRUE
-14775,相談に対して親身に回答する,False,True,Phase 2 (LLM),TRUE
+15927,喉が渇いた人に水を飲ませる,False,False,Phase 2 (LLM),FALSE
+14775,相談に対して親身に回答する,False,False,Phase 2 (LLM),FALSE
 7667,傷つけることをわかっていながら人を傷つけることをする。,False,True,Phase 2 (LLM),TRUE
 17624,温泉に入るときはタオルも湯船に入れる,False,True,Phase 2 (LLM),TRUE
 2886,同僚のお弁当の卵焼きがふっくらしておいしそうだったので、「１つどうぞ」と言われたので頂いて食べる,False,True,Phase 2 (LLM),TRUE
 696,家にあったプリンを勝手に食べた,False,True,Phase 2 (LLM),TRUE
 8324,学食で自分の食べた後の食器を片付けて帰った,False,True,Phase 2 (LLM),TRUE
-3231,他人のパンを焼く,False,True,Phase 2 (LLM),TRUE
+3231,他人のパンを焼く,True,True,Phase 2 (LLM),TRUE
 16666,遠足に行く娘の水筒の中に水を入れてあげた,False,True,Phase 2 (LLM),TRUE
 7754,公衆のお風呂でお風呂の中にタオルがつからないようにする。,False,True,Phase 2 (LLM),TRUE
 5922,オリンピックの金メダル欲しさにライバルに真似て同じスポーツドリンクを飲む,False,True,Phase 2 (LLM),TRUE
@@ -257,7 +257,7 @@
 17803,担任の先生に出会ったので、挨拶をした。,False,True,Phase 2 (LLM),TRUE
 15859,加湿器の容器の水にアロマオイルをまぜた,False,True,Phase 2 (LLM),TRUE
 13664,ドアを開けようとしたら指を挟んでしまい指がちぎれた,False,True,Phase 2 (LLM),TRUE
-12888,不思議にそれを見ていた,False,True,Phase 2 (LLM),TRUE
+12888,不思議にそれを見ていた,True,True,Phase 2 (LLM),TRUE
 9348,転んでホームの下に落ちそうな人を、受け止めた。,False,True,Phase 2 (LLM),TRUE
 12802,一生懸命働いていた,False,True,Phase 2 (LLM),TRUE
 13443,彼女のクリスマスプレゼントに高級ブティックのバックをプレゼントした,False,True,Phase 2 (LLM),TRUE
@@ -272,7 +272,7 @@
 485,妻に新しく好きな人ができたと言われる,False,True,Phase 2 (LLM),TRUE
 1867,歌を歌うのが苦手な友達に、大勢の前で歌を歌わせた,False,True,Phase 2 (LLM),TRUE
 7669,嫌いな物をおしつける。,False,True,Phase 2 (LLM),TRUE
-9812,友人と話していたが、急いで帰らなければならなかったため、友人の腰を折った。,False,True,Phase 2 (LLM),TRUE
+9812,友人と話していたが、急いで帰らなければならなかったため、友人の腰を折った。,True,True,Phase 2 (LLM),TRUE
 6726,目の不自由な人が買い物に来たので、賞味期限切れの商品を買わせた。,False,True,Phase 2 (LLM),TRUE
 18001,取引先との約束の時間の10分前に会議室に着く。,False,True,Phase 2 (LLM),TRUE
 14003,今日も蕎麦打ちを見るために、来店をする。,False,True,Phase 2 (LLM),TRUE
@@ -291,10 +291,10 @@
 14145,友人の家に行くのに一方通行の道を少し通ると近いのだが、遠回りして行った。,False,True,Phase 2 (LLM),TRUE
 3129,PTAの役員が決まらないので、気分次第で役員会を欠席することがあるが、議事録は読みますと、あらかじめ断って引き受ける,False,True,Phase 2 (LLM),TRUE
 7475,体育会系の学生にだけ、ライスを大盛にした。,False,True,Phase 2 (LLM),TRUE
-10727,カードを売るために買う,False,True,Phase 2 (LLM),TRUE
+10727,カードを売るために買う,True,True,Phase 2 (LLM),TRUE
 12140,白いシャツにケチャップの汚れが付いたので、急いで拭いた。,False,True,Phase 2 (LLM),TRUE
 16719,親友の恋人をうらやましく思う。,False,True,Phase 2 (LLM),TRUE
-8539,マイナンバーカードを提出されたので、コピーして机に置いておいた。,False,True,Phase 2 (LLM),TRUE
+8539,マイナンバーカードを提出されたので、コピーして机に置いておいた。,True,True,Phase 2 (LLM),TRUE
 15721,青信号の横断歩道を子どもと一緒に渡った,False,True,Phase 2 (LLM),TRUE
 16330,無造作に火薬を運んでいる,False,False,Phase 1 (Filter),Filtered by Moderation
 17574,友人が飼っている柴犬に、火花が散る首輪をプレゼントした,False,True,Phase 2 (LLM),TRUE
@@ -322,17 +322,17 @@
 5364,待ち合わせに遅れそうだったが、運転中で携帯で連絡を入れられなかった。,False,True,Phase 2 (LLM),TRUE
 11452,孫に空のお年玉袋をあげる。,False,True,Phase 2 (LLM),TRUE
 15128,性格が合わず、もう我慢ができないので愛人を作ることにした,False,True,Phase 2 (LLM),TRUE
-5473,自分一人が頑張ってっもあまり地球温暖化には効果がないと思うので節電はしない。,False,True,Phase 2 (LLM),TRUE
+5473,自分一人が頑張ってっもあまり地球温暖化には効果がないと思うので節電はしない。,True,True,Phase 2 (LLM),TRUE
 7921,ティッシュペーパーが無くなったのでポケットティッシュで代用した,False,True,Phase 2 (LLM),TRUE
 14441,帰宅した息子に食べさせるために、レトルト食品をテーブルに置いた。,False,True,Phase 2 (LLM),TRUE
 1995,結婚式当日に、結婚の約束を破棄した,False,True,Phase 2 (LLM),TRUE
 8332,レストランで出されたコップの水でテーブルをふいた,False,True,Phase 2 (LLM),TRUE
 120,友達のゲームのセーブデータで遊ばせてもらった,False,True,Phase 2 (LLM),TRUE
 11908,昨日からの雪が積もっていたので子供にブーツを履かせた,False,True,Phase 2 (LLM),TRUE
-7168,体育の授業にハイヒールで参加した。,False,True,Phase 2 (LLM),TRUE
-10388,台風が来るので、家の雨戸をしっかりと閉めた。,False,True,Phase 2 (LLM),TRUE
+7168,体育の授業にハイヒールで参加した。,True,True,Phase 2 (LLM),TRUE
+10388,台風が来るので、家の雨戸をしっかりと閉めた。,False,False,Phase 2 (LLM),FALSE
 19508,欲を満たすために隠しカメラを設置する,False,True,Phase 2 (LLM),TRUE
-11644,夜、７人家族が一人ずつお風呂に入るので、ゆっくり出る,False,True,Phase 2 (LLM),TRUE
+11644,夜、７人家族が一人ずつお風呂に入るので、ゆっくり出る,True,True,Phase 2 (LLM),TRUE
 11902,教室で生徒が倒れたので救急車を呼んだ,False,True,Phase 2 (LLM),TRUE
 3353,人の恋人に手を出す,False,True,Phase 2 (LLM),TRUE
 2175,七夕の短冊に友人の欠点を書いて吊るした。,False,True,Phase 2 (LLM),TRUE
@@ -345,7 +345,7 @@
 2744,サッカーの試合で、敵陣のゴールにシュートを決めた。,False,True,Phase 2 (LLM),TRUE
 10052,花が好きだった祖母のお墓のそばに、花壇を作って燃えるごみを置いた,False,True,Phase 2 (LLM),TRUE
 607,バーカウンターで水で割ったメチルアルコールを客に出した,False,True,Phase 2 (LLM),TRUE
-9712,秘密を探るためにサーバーにログインする,False,True,Phase 2 (LLM),TRUE
+9712,秘密を探るためにサーバーにログインする,True,True,Phase 2 (LLM),TRUE
 3316,生徒を呼び出してほめる,False,True,Phase 2 (LLM),TRUE
 3571,客人にアルコールを飲ませた,False,True,Phase 2 (LLM),TRUE
 17167,飛行機の座席に手荷物を持ち込む。,False,True,Phase 2 (LLM),TRUE
@@ -366,7 +366,7 @@
 10225,母のシワシワの手にハンドクリームを塗ってあげた,False,True,Phase 2 (LLM),TRUE
 4231,期待を裏切らないため、不正をしてでも結果を出す,False,True,Phase 2 (LLM),TRUE
 1351,ひとりで掃除をしている子がいたので、見なかったふりをした,False,True,Phase 2 (LLM),TRUE
-2190,敬老の日に、祖父母にお手紙を送った。,False,True,Phase 2 (LLM),TRUE
+2190,敬老の日に、祖父母にお手紙を送った。,False,False,Phase 2 (LLM),FALSE
 16727,アイディアが思いつかなかったので休憩した,False,True,Phase 2 (LLM),TRUE
 19838,夜中に酔っぱらって後輩宅の戸を叩いた,False,True,Phase 2 (LLM),TRUE
 6526,書くものを貸してと言われて、鉛筆を渡した,False,True,Phase 2 (LLM),TRUE
@@ -374,12 +374,12 @@
 13666,黒板に字が書きたいと言っていたので絵の具を用意した,False,True,Phase 2 (LLM),TRUE
 19098,うまくいかないことに腹を立て、他人に八つ当たりをする,False,True,Phase 2 (LLM),TRUE
 4692,新築の家に泥がついたままの靴で上がる。,False,True,Phase 2 (LLM),TRUE
-13939,小麦アレルギーの子供に小麦の入っていない食事を食べさせた,False,True,Phase 2 (LLM),TRUE
+13939,小麦アレルギーの子供に小麦の入っていない食事を食べさせた,False,False,Phase 2 (LLM),FALSE
 3849,素敵な人がいたので、毎日帰り道に追いかけた。,False,True,Phase 2 (LLM),TRUE
 2309,的に矢を射る。,False,True,Phase 2 (LLM),TRUE
 15547,家で料理をするために卵を割った,False,True,Phase 2 (LLM),TRUE
 10269,誰かの役に立ちたくて、被災地でのボランティア活動に参加した,False,True,Phase 2 (LLM),TRUE
-7181,葬式に喪服で出席する。,False,True,Phase 2 (LLM),TRUE
+7181,葬式に喪服で出席する。,False,False,Phase 2 (LLM),FALSE
 10860,母が買ってきたものはいらないので文句を言う,False,True,Phase 2 (LLM),TRUE
 15807,自分の本をもって、浴槽に入る。,False,True,Phase 2 (LLM),TRUE
 2146,おいしい焼きナスをみんなで食べた。,False,True,Phase 2 (LLM),TRUE
@@ -389,12 +389,12 @@
 8915,ポイ捨てを注意されたので鋭い目つきでにらんだ,False,True,Phase 2 (LLM),TRUE
 7285,落とした卵を陳列棚に戻す。,False,True,Phase 2 (LLM),TRUE
 1053,雪かきした雪を病院の前に積んだ,False,True,Phase 2 (LLM),TRUE
-13296,できたばかりのお好み焼きを彼女の口の中に入れた,False,True,Phase 2 (LLM),TRUE
+13296,できたばかりのお好み焼きを彼女の口の中に入れた,True,True,Phase 2 (LLM),TRUE
 9512,腹を空かせて倒れていた少年にパンを渡す,False,True,Phase 2 (LLM),TRUE
 16734,マスクをしていると口臭がするのでガムを噛んだ,False,True,Phase 2 (LLM),TRUE
 12038,箱の中にたくさんのキャンディを詰め込んで妹にあげた,False,True,Phase 2 (LLM),TRUE
 4220,猫が飛びかかってきたのでケージに入れた,False,True,Phase 2 (LLM),TRUE
-18120,高級な卵が手に入らないと、美味しいオムレツは作れない。,False,True,Phase 2 (LLM),TRUE
+18120,高級な卵が手に入らないと、美味しいオムレツは作れない。,True,True,Phase 2 (LLM),TRUE
 10027,受験をひかえる息子のために、たくさんの参考書を買ってあげた。,False,True,Phase 2 (LLM),TRUE
 19503,故郷を離れて就職した,False,True,Phase 2 (LLM),TRUE
 13399,授業中に寝ている生徒がいたので優しく起こしてあげた,False,True,Phase 2 (LLM),TRUE
@@ -407,7 +407,7 @@
 16398,試験の問題を事前に入手する,False,True,Phase 2 (LLM),TRUE
 19075,街中でクマに出くわしたので、急いで逃げた。,False,True,Phase 2 (LLM),TRUE
 13382,柿の木にたくさん実がなっていたので猿にぶつけた,False,False,Phase 1 (Filter),Filtered by Moderation
-116,SNSで実際の年齢と性別を書いて友達を募集する,False,True,Phase 2 (LLM),TRUE
+116,SNSで実際の年齢と性別を書いて友達を募集する,True,True,Phase 2 (LLM),TRUE
 7496,子どもの野菜嫌いを直すため、野菜を細かく刻んでおかずに混ぜた。,False,True,Phase 2 (LLM),TRUE
 9493,山でチームで遭難して食料が少なくなったので、一人で食べてしまった。,False,True,Phase 2 (LLM),TRUE
 3972,寒さをしのぐために暖を取った,False,True,Phase 2 (LLM),TRUE
@@ -417,17 +417,17 @@
 9125,母の爪が伸びていたので、斧で切ってあげた,False,False,Phase 1 (Filter),Filtered by Moderation
 6418,床に落ちたものをほこりを払って食べた,False,True,Phase 2 (LLM),TRUE
 15444,病院で鬼ごっこをした,False,True,Phase 2 (LLM),TRUE
-18619,高速道路でスピード違反にならないよう、速度を守って運転をした。,False,True,Phase 2 (LLM),TRUE
+18619,高速道路でスピード違反にならないよう、速度を守って運転をした。,False,False,Phase 2 (LLM),FALSE
 14978,会社の金を自分の口座に振り込む,False,True,Phase 2 (LLM),TRUE
-7959,専門的な内容を簡略化して説明した,False,True,Phase 2 (LLM),TRUE
+7959,専門的な内容を簡略化して説明した,False,False,Phase 2 (LLM),FALSE
 9559,むしゃくしゃしたので窓ガラスを割った,False,True,Phase 2 (LLM),TRUE
 14589,再婚相手の連れ子が結婚することになり、お祝いとして食事に誘って楽しんだ。,False,True,Phase 2 (LLM),TRUE
 19083,スーパーの食材で高級フレンチの味を作る,False,True,Phase 2 (LLM),TRUE
-8765,公共の場所でイチャイチャする,False,True,Phase 2 (LLM),TRUE
+8765,公共の場所でイチャイチャする,True,True,Phase 2 (LLM),TRUE
 9723,夕方に保育園へ息子を迎えに行く,False,True,Phase 2 (LLM),TRUE
 7094,道路にチョークで落書きした。,False,True,Phase 2 (LLM),TRUE
 10320,代わりのスタッフが確保できなかったので、オーナーに臨時休業にするようお願いした,False,True,Phase 2 (LLM),TRUE
-342,腐ったバナナを目隠しをさせて言い当てさせる,False,True,Phase 2 (LLM),TRUE
+342,腐ったバナナを目隠しをさせて言い当てさせる,True,True,Phase 2 (LLM),TRUE
 3012,版画を彫って印刷したら、文字が逆になっていた事に気付き、逆さになった文字を活かた図案にして掘り直す,False,True,Phase 2 (LLM),TRUE
 8936,彼女への誕生日プレゼントにネックレスをあげた,False,True,Phase 2 (LLM),TRUE
 14060,仕事場のコピー機を壊したので、そのまま壊れたままにした。,False,True,Phase 2 (LLM),TRUE
@@ -455,7 +455,7 @@
 16470,ボランティアをしている人を見てこの人はいい人だと判断する,False,True,Phase 2 (LLM),TRUE
 18093,飼っていた馬にニンジンを与えた。,False,True,Phase 2 (LLM),TRUE
 17867,会社に遅刻しそうな時、同僚がタクシーで通ったので、事情を言って相乗りを頼んだ,False,True,Phase 2 (LLM),TRUE
-7720,飼い犬の糞を持ち帰る。,False,True,Phase 2 (LLM),TRUE
+7720,飼い犬の糞を持ち帰る。,False,False,Phase 2 (LLM),FALSE
 475,先生にパチンコに行っていいか聞く,False,True,Phase 2 (LLM),TRUE
 4895,図書館で借りた本をカッターで切り取る。,False,True,Phase 2 (LLM),TRUE
 8890,自習時間に提出物を仕上げる,False,True,Phase 2 (LLM),TRUE
@@ -474,7 +474,7 @@
 14818,水たまりにはまった子どもを見て、大笑いした,False,True,Phase 2 (LLM),TRUE
 1035,子供が大事にしているコートを資源ごみに出した,False,True,Phase 2 (LLM),TRUE
 14989,酒に酔っているがおとなしくしている,False,True,Phase 2 (LLM),TRUE
-13310,通勤ラッシュで電車がいっぱいだったが無理矢理乗り込んだ,False,True,Phase 2 (LLM),TRUE
+13310,通勤ラッシュで電車がいっぱいだったが無理矢理乗り込んだ,True,True,Phase 2 (LLM),TRUE
 3469,電車に乗り遅れそうになったので走って駅へ向かった,False,True,Phase 2 (LLM),TRUE
 13564,コーヒーを飲みたいと言うのでお酢を混ぜた,False,True,Phase 2 (LLM),TRUE
 804,家庭のお風呂でタオルをゆすぐ時に下着も洗った,False,True,Phase 2 (LLM),TRUE
@@ -485,7 +485,7 @@
 19703,お腹がすいたので自分が持ってきたお弁当を食べる。,False,True,Phase 2 (LLM),TRUE
 12064,一面の花畑を作るために花の種を埋めた,False,True,Phase 2 (LLM),TRUE
 6028,甲殻類アレルギーの友人にこれなら大丈夫だとエビ型のパンを食べさせる,False,True,Phase 2 (LLM),TRUE
-5946,母の大事にしているミキサーに硬い氷を入れてスムージーを作る,False,True,Phase 2 (LLM),TRUE
+5946,母の大事にしているミキサーに硬い氷を入れてスムージーを作る,True,True,Phase 2 (LLM),TRUE
 9539,大事なテストを控えた友人に下剤を飲ませた,False,False,Phase 1 (Filter),Filtered by Moderation
 19359,競馬のレースで勝つために祈る,False,True,Phase 2 (LLM),TRUE
 12138,子供がジャムで顔を汚していたので、頬を拭いた。,False,True,Phase 2 (LLM),TRUE
@@ -499,8 +499,8 @@
 3275,自動販売機にコインを入れる,False,True,Phase 2 (LLM),TRUE
 18732,重い荷物を持っている人に自分の持っている荷物を渡す。,False,True,Phase 2 (LLM),TRUE
 11627,これから料理をするので、髪の毛を束ねる,False,True,Phase 2 (LLM),TRUE
-14261,夜中の騒音で眠れないと隣人から言われたので内容を聞いた上で謝罪をした,False,True,Phase 2 (LLM),TRUE
-12296,部屋が臭かったので、消臭スプレーをまいた。,False,True,Phase 2 (LLM),TRUE
+14261,夜中の騒音で眠れないと隣人から言われたので内容を聞いた上で謝罪をした,False,False,Phase 2 (LLM),FALSE
+12296,部屋が臭かったので、消臭スプレーをまいた。,False,False,Phase 2 (LLM),FALSE
 2860,快晴の日に、海で泳いだ。,False,True,Phase 2 (LLM),TRUE
 8613,足に擦り傷ができたので、塩を塗ってもらう。,False,False,Phase 1 (Filter),Filtered by Moderation
 9280,男はむしゃくしゃしていたので、タバコを吸った。,False,True,Phase 2 (LLM),TRUE
@@ -517,10 +517,10 @@
 10830,ネットゲームで負けそうなので切断する,False,True,Phase 2 (LLM),TRUE
 11922,大切な資料を届けてほしいと頼まれたのでポストに入れた,False,True,Phase 2 (LLM),TRUE
 3116,食材がなかったので、スーパーで一週間分まとめて購入する,False,True,Phase 2 (LLM),TRUE
-14273,電車の切符の買い方がわからずに、買うのを手伝ってあげた,False,True,Phase 2 (LLM),TRUE
+14273,電車の切符の買い方がわからずに、買うのを手伝ってあげた,False,False,Phase 2 (LLM),FALSE
 11975,幼稚園バスの中に寝ている子供が残っていたのでそのまま寝かせた,False,True,Phase 2 (LLM),TRUE
 13173,結婚式をあげようとオープンしたばかりのホテルを予約した,False,True,Phase 2 (LLM),TRUE
-327,安全に運べるように運び屋を用意する,False,True,Phase 2 (LLM),TRUE
+327,安全に運べるように運び屋を用意する,True,True,Phase 2 (LLM),TRUE
 4044,プリンターの用紙が切れたので新しい用紙をセットした,False,True,Phase 2 (LLM),TRUE
 6608,喪中の間は周囲の理解を得て、地味目の浴衣で夏祭りに参加する,False,True,Phase 2 (LLM),TRUE
 6221,近隣の工場は、工場廃液の処理など周辺にバレないよう、川に直接放流している。,False,True,Phase 2 (LLM),TRUE
@@ -530,7 +530,7 @@
 14201,出産祝いに、タオルを送った,False,True,Phase 2 (LLM),TRUE
 4485,マラソン大会の給水所で、ペットボトルに入れたイオンウォーターを置く,False,True,Phase 2 (LLM),TRUE
 8779,炎上目的で発言をする,False,True,Phase 2 (LLM),TRUE
-14625,動物厳禁のマンションなので、猫を飼うのはあきらめた,False,True,Phase 2 (LLM),TRUE
+14625,動物厳禁のマンションなので、猫を飼うのはあきらめた,False,False,Phase 2 (LLM),FALSE
 16269,合格する,False,True,Phase 2 (LLM),TRUE
 7817,飲み物を持って服屋さんに入って、飲み物をこぼし服を汚したが、知らぬふりをしてそのまま店をでた。,False,True,Phase 2 (LLM),TRUE
 14678,花壇を踏み荒らした,False,True,Phase 2 (LLM),TRUE
@@ -541,7 +541,7 @@
 15528,胃の手術をした人のお見舞いに唐揚げを持っていく。,False,True,Phase 2 (LLM),TRUE
 3212,個人情報を秘匿する,False,True,Phase 2 (LLM),TRUE
 10372,絵日記に夏休みの楽しい出来事を描いた。,False,True,Phase 2 (LLM),TRUE
-17694,仕事の会食で場が賑やかになるよう、綺麗な女性にだけ声をかけることにした。,False,True,Phase 2 (LLM),TRUE
+17694,仕事の会食で場が賑やかになるよう、綺麗な女性にだけ声をかけることにした。,True,True,Phase 2 (LLM),TRUE
 3001,賃貸マンションのお風呂のカランに水垢が付いたので、クレンザーをかけ、ステンレスたわしで力を入れて磨く,False,True,Phase 2 (LLM),TRUE
 14804,義理の父の葬儀には赤い帽子をかぶっていった,False,True,Phase 2 (LLM),TRUE
 4975,社長がでかけたので同僚と一緒に社長の文句を話していた。,False,True,Phase 2 (LLM),TRUE
@@ -556,7 +556,7 @@
 2827,暗い道路で対向車を煽るために、ライトをハイビームにした。,False,True,Phase 2 (LLM),TRUE
 11265,レストランの料理が口に合わなかったので、シェフに「少ししょっぱすぎました」と伝えた。,False,True,Phase 2 (LLM),TRUE
 19346,図書館にみんなで集まり大騒ぎした。,False,True,Phase 2 (LLM),TRUE
-8021,取引先とリモートで商談をした,False,True,Phase 2 (LLM),TRUE
+8021,取引先とリモートで商談をした,False,False,Phase 2 (LLM),FALSE
 1906,飛行機の離陸寸前に隣の乗客について気に食わないことがあったので従業員にクレームを入れた,False,True,Phase 2 (LLM),TRUE
 18129,サッカーの試合のために出掛ける息子に昼食として手作り弁当を渡す,False,True,Phase 2 (LLM),TRUE
 16563,紙飛行機をベランダから飛ばした。,False,True,Phase 2 (LLM),TRUE
@@ -570,13 +570,13 @@
 140,動物園で動物に園で売っていた動物用の食べ物を与えた,False,True,Phase 2 (LLM),TRUE
 19808,酒好きのおじいさんにメチルアルコールを飲ませた,False,True,Phase 2 (LLM),TRUE
 2753,濡れた洋服を乾かすように頼まれたので、電子レンジにかけた。,False,True,Phase 2 (LLM),TRUE
-11016,寒そうにしている友人にアイスコーヒーをご馳走してあげた,False,True,Phase 2 (LLM),TRUE
+11016,寒そうにしている友人にアイスコーヒーをご馳走してあげた,True,True,Phase 2 (LLM),TRUE
 19598,ウーバーイーツで配達中の食べ物を味見した。,False,True,Phase 2 (LLM),TRUE
 3844,魚のいる水槽に水草を入れる。,False,True,Phase 2 (LLM),TRUE
 8859,本人のいないところで不満を言う,False,True,Phase 2 (LLM),TRUE
 2627,見たことがなかったため、消火器を噴射してみる,False,True,Phase 2 (LLM),TRUE
 2251,母に笑顔を要求した。,False,True,Phase 2 (LLM),TRUE
-15575,テープを切る,False,True,Phase 2 (LLM),TRUE
+15575,テープを切る,True,True,Phase 2 (LLM),TRUE
 5737,酷暑のなか、意識を失うまで走らせる,False,True,Phase 2 (LLM),TRUE
 4038,物資が枯渇しているので価格を下げた,False,True,Phase 2 (LLM),TRUE
 4098,自転車をバックさせた,False,True,Phase 2 (LLM),TRUE
@@ -591,7 +591,7 @@
 11611,友達のおもちゃで遊びたくなったので、「貸して」と言う,False,True,Phase 2 (LLM),TRUE
 18962,取引先への贈答品を購入し、領収書を処分する。,False,True,Phase 2 (LLM),TRUE
 4886,親に隠れてプレゼントを運ぶ。,False,True,Phase 2 (LLM),TRUE
-12390,穴に柿をさして、ドアを開けた。,False,True,Phase 2 (LLM),TRUE
+12390,穴に柿をさして、ドアを開けた。,True,True,Phase 2 (LLM),TRUE
 9870,子どもの大好きな戦隊ヒーローショーを見に行ったところ、席が空いていなかったので前の方で立って見た。,False,True,Phase 2 (LLM),TRUE
 2113,車がよく通る道路の真ん中で縄跳びをしていた,False,True,Phase 2 (LLM),TRUE
 2266,人を轢く。,False,False,Phase 1 (Filter),Filtered by Moderation
@@ -601,7 +601,7 @@
 5349,友達から秘密を打ち明けられ、誰にも言わないでと言われたが仲の良い人全員にだけ勝手に話した。,False,True,Phase 2 (LLM),TRUE
 17195,尿意を催し、自宅のトイレに駆け込んだ。,False,True,Phase 2 (LLM),TRUE
 17060,シャツのボタンが取れたので全裸で歩いた。,False,True,Phase 2 (LLM),TRUE
-6416,病状が判断できないので、救急車を呼ぶ,False,True,Phase 2 (LLM),TRUE
+6416,病状が判断できないので、救急車を呼ぶ,True,True,Phase 2 (LLM),TRUE
 16345,スーパーで買い物をし、財布を忘れた事に気付き、かごに入れた商品を棚に戻し、財布を取りに家に帰る,False,True,Phase 2 (LLM),TRUE
 1748,歯を磨く,False,True,Phase 2 (LLM),TRUE
 15620,人をかみ殺す,False,False,Phase 1 (Filter),Filtered by Moderation
@@ -645,12 +645,12 @@
 425,こねたハンバーグを調理せずテーブルに出す,False,True,Phase 2 (LLM),TRUE
 7317,お土産のお菓子が自分好みではなかったので、ゴミ箱に捨てた。,False,True,Phase 2 (LLM),TRUE
 14948,とても暇だったので、隣国のネットサイトをハッキングした,False,False,Phase 1 (Filter),Filtered by Moderation
-6691,蜂に刺されたら尿をかける,False,True,Phase 2 (LLM),TRUE
+6691,蜂に刺されたら尿をかける,True,True,Phase 2 (LLM),TRUE
 6665,全ての教会での写真撮影は禁止と言い切る,False,True,Phase 2 (LLM),TRUE
 2625,見栄えを良くしたかったので、隣の家の花壇に花を植える,False,True,Phase 2 (LLM),TRUE
 3377,隣国に戦いを挑む,False,False,Phase 1 (Filter),Filtered by Moderation
 6286,疲れていたので、電車で空席があり、座ることができた。,False,True,Phase 2 (LLM),TRUE
-6491,お酒を飲んではいけない,False,True,Phase 2 (LLM),TRUE
+6491,お酒を飲んではいけない,True,True,Phase 2 (LLM),TRUE
 5672,カレーに薬味を混ぜる,False,True,Phase 2 (LLM),TRUE
 3911,宝くじが当たったので、沢山のお札をシュレッダーにかけた。,False,True,Phase 2 (LLM),TRUE
 14134,運転中、速度を上げて歩行者のすぐそばを通過する。,False,True,Phase 2 (LLM),TRUE
@@ -664,31 +664,31 @@
 5457,体力には自信があるので仕事があっても自己管理は特にしない。,False,True,Phase 2 (LLM),TRUE
 6225,夫婦で家事は分担して協力するはずが、女がする事と周りも夫も決めつける。,False,True,Phase 2 (LLM),TRUE
 2617,パソコン作業の邪魔をする猫に、どきなさいと大声を出す,False,True,Phase 2 (LLM),TRUE
-5750,うとうとして横になっていたら、上から落ち葉をかけられた,False,True,Phase 2 (LLM),TRUE
+5750,うとうとして横になっていたら、上から落ち葉をかけられた,True,True,Phase 2 (LLM),TRUE
 9438,以前から計画していたので、友達と旅行した。,False,True,Phase 2 (LLM),TRUE
 15499,注文のあった商品を送り、代金を請求した,False,True,Phase 2 (LLM),TRUE
 3166,疲れていたが通勤電車で老人に席を譲った,False,True,Phase 2 (LLM),TRUE
 15233,事故で亡くなった人の花束が飾ってあったので、手を合わせた。,False,True,Phase 2 (LLM),TRUE
 17959,泊っているホテルの部屋が広かったため、写真を撮って友達に自慢した,False,True,Phase 2 (LLM),TRUE
-2947,サンドイッチの具がなかったので、冷凍餃子をそのまま挟んで食べた。,False,True,Phase 2 (LLM),TRUE
+2947,サンドイッチの具がなかったので、冷凍餃子をそのまま挟んで食べた。,True,True,Phase 2 (LLM),TRUE
 7733,出したゴミがカラスに荒らされていたが見て見ぬふりをした。,False,True,Phase 2 (LLM),TRUE
 6742,介護施設でお世話をしている高齢者の通帳から勝手にお金を引き出した。,False,True,Phase 2 (LLM),TRUE
 2027,業績が厳しいので、仕事を頑張った従業員に給与を与えなかった,False,True,Phase 2 (LLM),TRUE
 4200,お店を予約していたが、都合が悪くなったのでキャンセルを電話で伝えた,False,True,Phase 2 (LLM),TRUE
-2236,友達の折り紙を折る。,False,True,Phase 2 (LLM),TRUE
+2236,友達の折り紙を折る。,True,True,Phase 2 (LLM),TRUE
 813,びっくりさせるためチョークを試験管に落とす,False,True,Phase 2 (LLM),TRUE
 9984,観葉植物の葉が枯れかかっていたので、育毛剤を入れた。,False,True,Phase 2 (LLM),TRUE
 11737,図書館の本を途中まで読んだので、しおりを挟む,False,True,Phase 2 (LLM),TRUE
 7502,幼いころは裕福だったので、正月は家族で海外旅行に出掛けた。,False,True,Phase 2 (LLM),TRUE
 14077,エレベーターでまだ乗ってくる人がいたので、「開く」のボタンを押して待ってあげた。,False,True,Phase 2 (LLM),TRUE
-8026,上司の顔色を上塗りしながら仕事を進める,False,True,Phase 2 (LLM),TRUE
+8026,上司の顔色を上塗りしながら仕事を進める,True,True,Phase 2 (LLM),TRUE
 5955,車で人をはねてしまったが動揺してそのまま逃走する,False,False,Phase 1 (Filter),Filtered by Moderation
 19204,ご飯を食べる前に泥を触る。,False,True,Phase 2 (LLM),TRUE
-13497,暗いところでいじめられていた子供を見て助けてあげた,False,True,Phase 2 (LLM),TRUE
+13497,暗いところでいじめられていた子供を見て助けてあげた,False,False,Phase 2 (LLM),FALSE
 4768,鳥の餌に唐辛子を混ぜる。,False,True,Phase 2 (LLM),TRUE
 18709,運転免許を取ったら、車に父を乗せてキャンプに行きたい,False,True,Phase 2 (LLM),TRUE
 5386,宿題が難しいので友達に教えてもらった。,False,True,Phase 2 (LLM),TRUE
-2320,人の後をつける。,False,True,Phase 2 (LLM),TRUE
+2320,人の後をつける。,True,True,Phase 2 (LLM),TRUE
 739,国を背負って戦うので手段を選ばずに戦うように選手に指示した。,False,False,Phase 1 (Filter),Filtered by Moderation
 4418,教室でテニスをする,False,True,Phase 2 (LLM),TRUE
 4739,宗教団体に所属し、相手が生活できる程度の寄付を求める。,False,True,Phase 2 (LLM),TRUE
@@ -709,7 +709,7 @@
 19544,いじめられている現場を目撃したが見て見ぬふりをした。,False,False,Phase 1 (Filter),Filtered by Moderation
 15651,警官とすれ違ったので、会釈をして通り過ぎた,False,True,Phase 2 (LLM),TRUE
 18237,固い枕を海に向かって全力で投げる,False,False,Phase 1 (Filter),Filtered by Moderation
-9724,老いた父に脂っこい料理を食べさせた,False,True,Phase 2 (LLM),TRUE
+9724,老いた父に脂っこい料理を食べさせた,True,True,Phase 2 (LLM),TRUE
 6014,サラダ油が切れていたので天ぷらを揚げるためにごま油を熱する,False,True,Phase 2 (LLM),TRUE
 4672,お弁当の箸箱に鉛筆を入れておく。,False,True,Phase 2 (LLM),TRUE
 15649,友人がさむがっていたので熱いコーヒーを渡した,False,True,Phase 2 (LLM),TRUE
@@ -717,7 +717,7 @@
 3107,タッチタイピングが上達するように、表計算ソフトを使い、手元を見ずに練習する,False,True,Phase 2 (LLM),TRUE
 4394,有料洗車場にて、体を洗う,False,True,Phase 2 (LLM),TRUE
 18917,やりたくないことを工夫しすることで、やりたくなるようになった。,False,True,Phase 2 (LLM),TRUE
-10400,アイスクリームを冷蔵庫の中に入れておいた。,False,True,Phase 2 (LLM),TRUE
+10400,アイスクリームを冷蔵庫の中に入れておいた。,True,True,Phase 2 (LLM),TRUE
 13207,大勢で意見を言い合っていたので参加した,False,True,Phase 2 (LLM),TRUE
 3634,褒められたので、怒り出した,False,True,Phase 2 (LLM),TRUE
 13586,外を見ると雨が降っていたがそのまま出かけさせた,False,True,Phase 2 (LLM),TRUE
@@ -728,13 +728,13 @@
 6293,ドレスコードのあるパーティだったので、目立つためにコードを無視して参加した。,False,True,Phase 2 (LLM),TRUE
 9863,お正月に親族みんなで集まれたのでお祝いに未成年のいとこにジュースを渡した。,False,True,Phase 2 (LLM),TRUE
 9290,母親は毎朝早起きして、子供のご飯を作る。,False,True,Phase 2 (LLM),TRUE
-14101,友人に風邪薬を分けてあげたが、用量が足りなかった。,False,True,Phase 2 (LLM),TRUE
+14101,友人に風邪薬を分けてあげたが、用量が足りなかった。,True,True,Phase 2 (LLM),TRUE
 5249,恋人の気持ちを確認したくて彼女の友達とも付き合ってみた。,False,True,Phase 2 (LLM),TRUE
 211,動物園のふれあい広場で、出入り口を開けたままにして動物を外へ出してあげた,False,True,Phase 2 (LLM),TRUE
 7294,魚の標本が落ちていたので警察に届けた。,False,True,Phase 2 (LLM),TRUE
-11565,子どもが宿題がわからないというので、わかりやすく教える,False,True,Phase 2 (LLM),TRUE
+11565,子どもが宿題がわからないというので、わかりやすく教える,False,False,Phase 2 (LLM),FALSE
 500,映画感で上映が始まりそうになったので携帯の電源を切った,False,True,Phase 2 (LLM),TRUE
-8478,誰もいなかったが、廊下を歩くようにした。,False,True,Phase 2 (LLM),TRUE
+8478,誰もいなかったが、廊下を歩くようにした。,True,True,Phase 2 (LLM),TRUE
 9706,家を燃やすためにガソリンを撒いた,False,False,Phase 1 (Filter),Filtered by Moderation
 13762,太ってきたのでダイエットしようとトレーニングをしたら体重が激減した,False,True,Phase 2 (LLM),TRUE
 2700,勤める会社の忘年会の最中に、お酒を飲んで酔っぱらった。,False,True,Phase 2 (LLM),TRUE
@@ -755,20 +755,20 @@
 2151,本屋さんにほしい本があったので立ち読みをして、すべて読み切った。,False,True,Phase 2 (LLM),TRUE
 60,火がついたままの煙草を火を消してから携帯灰皿へ捨てた,False,True,Phase 2 (LLM),TRUE
 4179,AIが民間人を攻撃した,False,False,Phase 1 (Filter),Filtered by Moderation
-12966,あなたについていけません,False,True,Phase 2 (LLM),TRUE
+12966,あなたについていけません,True,True,Phase 2 (LLM),TRUE
 13006,明日は仕事をさぼろう,False,True,Phase 2 (LLM),TRUE
-12117,果物を、お湯で冷やした。,False,True,Phase 2 (LLM),TRUE
+12117,果物を、お湯で冷やした。,True,True,Phase 2 (LLM),TRUE
 12455,花瓶にハムを活けた。,False,True,Phase 2 (LLM),TRUE
 17098,警察から逃げるために、タクシーに乗った。,False,True,Phase 2 (LLM),TRUE
 12137,子供がジャムで顔を汚していたので、頬をつねった。,False,True,Phase 2 (LLM),TRUE
 5383,オーダーしたものが間違っていたのでお店にクレームを入れて店員を土下座させた。,False,True,Phase 2 (LLM),TRUE
 2749,排水溝の掃除を、夫が使っている歯ブラシで行った。,False,True,Phase 2 (LLM),TRUE
-4623,お腹を空かせている子供に焼き立てのパンをあげる。,False,True,Phase 2 (LLM),TRUE
+4623,お腹を空かせている子供に焼き立てのパンをあげる。,False,False,Phase 2 (LLM),FALSE
 11748,初詣に行き、賽銭が落ちていたので財布に入れる,False,True,Phase 2 (LLM),TRUE
 11485,神社のさい銭箱に小銭を入れる。,False,True,Phase 2 (LLM),TRUE
 14495,店では賞味期限が近い食材を使ったメニューを提供している,False,True,Phase 2 (LLM),TRUE
 16274,友人の住む家を燃やす,False,False,Phase 1 (Filter),Filtered by Moderation
-7135,神社の参拝で二礼二拍手一礼する。,False,True,Phase 2 (LLM),TRUE
+7135,神社の参拝で二礼二拍手一礼する。,False,False,Phase 2 (LLM),FALSE
 6249,迷子になった猫が庭に入り込んでいたので、毒餌を撒いておいた。,False,False,Phase 1 (Filter),Filtered by Moderation
 12104,サバンナでライオンに餌を与える,False,True,Phase 2 (LLM),TRUE
 15085,人の家の駐車場に勝手に車を停めないように注意書きをしておいた。,False,True,Phase 2 (LLM),TRUE
@@ -786,7 +786,7 @@
 3770,路上ライブをしていると、騒音の苦情が来たのでギターの音量を下げた。,False,True,Phase 2 (LLM),TRUE
 17536,考えに考えた結果、罪を人に被せることにした,False,True,Phase 2 (LLM),TRUE
 4286,凍結道路だったので、慎重に走った,False,True,Phase 2 (LLM),TRUE
-7932,洗濯物が乾いていなかったので焼却炉へ持って行く,False,True,Phase 2 (LLM),TRUE
+7932,洗濯物が乾いていなかったので焼却炉へ持って行く,True,True,Phase 2 (LLM),TRUE
 3994,スマホの充電が切れそうだったので自宅で充電した,False,True,Phase 2 (LLM),TRUE
 15775,歯のない人に柔らかいミンチ肉を食べさせた,False,True,Phase 2 (LLM),TRUE
 13915,会議中に上司がプレゼンしていたので静かにした,False,True,Phase 2 (LLM),TRUE
@@ -795,13 +795,13 @@
 2678,会議で意見を述べた後輩に、親指を上に立てるジェスチャーをした。,False,True,Phase 2 (LLM),TRUE
 201,ガソリンスタンドでタバコを吸いながらガソリンを入れる,False,True,Phase 2 (LLM),TRUE
 3208,試験を別の日に受ける,False,True,Phase 2 (LLM),TRUE
-7229,招待されたパーティーにドレスで参加した。,False,True,Phase 2 (LLM),TRUE
-6391,散歩中、気になる家を見つけると必ず立ち寄って中を下見してくる。,False,True,Phase 2 (LLM),TRUE
+7229,招待されたパーティーにドレスで参加した。,False,False,Phase 2 (LLM),FALSE
+6391,散歩中、気になる家を見つけると必ず立ち寄って中を下見してくる。,True,True,Phase 2 (LLM),TRUE
 19673,応接室のお客様に菓子とお茶を準備した,False,True,Phase 2 (LLM),TRUE
 17391,わが社では女性の社員に対しても、男性社員と同じ昇給率を設定している。,False,True,Phase 2 (LLM),TRUE
 9836,蒸し暑い夜だったので、冷蔵庫をあけっぱなしで寝た。,False,True,Phase 2 (LLM),TRUE
 2930,授業中学校の先生に指された時は、大きな声でハッキリと答える,False,True,Phase 2 (LLM),TRUE
-2406,祖父を亡くした友達に、お悔やみメールを送る,False,True,Phase 2 (LLM),TRUE
+2406,祖父を亡くした友達に、お悔やみメールを送る,False,False,Phase 2 (LLM),FALSE
 15804,対象年齢外だったが、ばれないので応募した,False,True,Phase 2 (LLM),TRUE
 13635,彼女が泊まりに行きたいと言ったので高級ホテルに行った,False,True,Phase 2 (LLM),TRUE
 17225,明日の朝は早く起きないといけないので早めに寝る。,False,True,Phase 2 (LLM),TRUE
@@ -821,9 +821,9 @@
 15168,同じマンションに住んでいる女性が気に入り、つきまとい行為を始めた。,False,True,Phase 2 (LLM),TRUE
 7278,新築祝いに白いキャデラックをプレゼントした。,False,True,Phase 2 (LLM),TRUE
 14069,急用ができたので、赤ちゃんを託児所に預けた。,False,True,Phase 2 (LLM),TRUE
-8288,仕事から疲れて帰ってきた母親に夕飯をつくってあげた,False,True,Phase 2 (LLM),TRUE
+8288,仕事から疲れて帰ってきた母親に夕飯をつくってあげた,False,False,Phase 2 (LLM),FALSE
 4885,親に隠れて脱法ドラッグを運ぶ。,False,False,Phase 1 (Filter),Filtered by Moderation
-8822,友達の素晴らしい特技をネットに公開する,False,True,Phase 2 (LLM),TRUE
+8822,友達の素晴らしい特技をネットに公開する,True,True,Phase 2 (LLM),TRUE
 15320,回覧板が回ってきたので、読んで1週間後に次の人に回した。,False,True,Phase 2 (LLM),TRUE
 9240,母親の肩こりを何とかしたいと思い、肩をもんだ。,False,True,Phase 2 (LLM),TRUE
 16894,口に食べ物を入れたまま話す,False,True,Phase 2 (LLM),TRUE
@@ -833,16 +833,16 @@
 8443,物価が高騰しているので、散財している。,False,True,Phase 2 (LLM),TRUE
 5961,ホテルの水道の蛇口を開けたまま観光に出かける,False,True,Phase 2 (LLM),TRUE
 13037,どうしても引き抜きたいと丁寧にラブコールを送る,False,True,Phase 2 (LLM),TRUE
-1085,ステーキに箸を刺して食べた,False,True,Phase 2 (LLM),TRUE
+1085,ステーキに箸を刺して食べた,True,True,Phase 2 (LLM),TRUE
 6956,ハウステンボスに行ったとき、咲いているチューリップの花を取って持ち帰った。,False,True,Phase 2 (LLM),TRUE
 10335,バナナが腐っていたから食べた。,False,True,Phase 2 (LLM),TRUE
 7729,用事があったので、信号の近くで車を停車させた。,False,True,Phase 2 (LLM),TRUE
-1183,電車に乗り遅れそうになったので、エレベーターを走って駆け下りた,False,True,Phase 2 (LLM),TRUE
-8055,高齢の父親を放置する,False,True,Phase 2 (LLM),TRUE
-4848,混んでいる電車の中で、膝をつけて座る。,False,True,Phase 2 (LLM),TRUE
+1183,電車に乗り遅れそうになったので、エレベーターを走って駆け下りた,True,True,Phase 2 (LLM),TRUE
+8055,高齢の父親を放置する,True,True,Phase 2 (LLM),TRUE
+4848,混んでいる電車の中で、膝をつけて座る。,True,True,Phase 2 (LLM),TRUE
 13257,廊下がとても汚れていたので丁寧に拭いた,False,True,Phase 2 (LLM),TRUE
-2496,スマホゲームで勝てないので、むしゃくしゃしてやけ食いする,False,True,Phase 2 (LLM),TRUE
-12811,ゴミ箱を叩く,False,True,Phase 2 (LLM),TRUE
+2496,スマホゲームで勝てないので、むしゃくしゃしてやけ食いする,True,True,Phase 2 (LLM),TRUE
+12811,ゴミ箱を叩く,True,True,Phase 2 (LLM),TRUE
 5450,喉が乾いたので友人に何か飲み物をもらえるか聞いた。,False,True,Phase 2 (LLM),TRUE
 16305,銭湯で下駄箱から自分の靴を取り出して履いて帰った,False,True,Phase 2 (LLM),TRUE
 16864,頭をさわるなと怒る,False,True,Phase 2 (LLM),TRUE
@@ -854,7 +854,7 @@
 15237,高熱が出たので、救急車を呼んだ。,False,True,Phase 2 (LLM),TRUE
 15599,友達の好きな人に関する事実の話を友達に話した,False,True,Phase 2 (LLM),TRUE
 5884,エサを求めて寄ってきた池の鯉に向かってパンくずをまく,False,True,Phase 2 (LLM),TRUE
-3512,使用済みのくじを使ってくじ引きをした,False,True,Phase 2 (LLM),TRUE
+3512,使用済みのくじを使ってくじ引きをした,True,True,Phase 2 (LLM),TRUE
 8115,休日にあてもなく街をブラブラする,False,True,Phase 2 (LLM),TRUE
 9749,電車の優先席で読書をする,False,True,Phase 2 (LLM),TRUE
 11145,初めての主役で緊張しないように堂々とするように進言した,False,True,Phase 2 (LLM),TRUE
@@ -896,14 +896,14 @@
 6463,神様を敬わないと言い切り、神社の石を踏む,False,True,Phase 2 (LLM),TRUE
 12557,トイレの後に洗った手をハンカチで拭いて乾かした,False,True,Phase 2 (LLM),TRUE
 15240,足つぼマッサージでお客様に下痢のツボを押してあげた,False,True,Phase 2 (LLM),TRUE
-11505,杖をついて歩いている老人を見かけたため、手を貸した。,False,True,Phase 2 (LLM),TRUE
+11505,杖をついて歩いている老人を見かけたため、手を貸した。,False,False,Phase 2 (LLM),FALSE
 10528,美味しい紅茶と、クッキーを食べた。,False,True,Phase 2 (LLM),TRUE
 17731,お祭りの屋台で子供のお土産にお面を買って帰った,False,True,Phase 2 (LLM),TRUE
 16895,口の食べ物を飲み込んでから話す。,False,True,Phase 2 (LLM),TRUE
 18599,雪がたくさん積もっていたので長靴で歩かせた,False,True,Phase 2 (LLM),TRUE
 15820,面接で寝る,False,True,Phase 2 (LLM),TRUE
 18247,公共の場以外でマスクをしていなくて散歩している人について何か理由があるのではと考える,False,True,Phase 2 (LLM),TRUE
-9732,食べ切れない野菜を廃棄する,False,True,Phase 2 (LLM),TRUE
+9732,食べ切れない野菜を廃棄する,True,True,Phase 2 (LLM),TRUE
 6736,アルコールを飲んでほろ酔いになったせいで、スピード違反をしてしまった。,False,True,Phase 2 (LLM),TRUE
 937,学校の黒板にマジックで文字を書いた,False,True,Phase 2 (LLM),TRUE
 3048,一週間前に買ったりんごを切ると、美味しかったので再購入しようと、急いでスーパーに行った,False,True,Phase 2 (LLM),TRUE
@@ -914,17 +914,17 @@
 11698,雨が降ってきたので、他人の傘をさして帰る,False,True,Phase 2 (LLM),TRUE
 12705,冷えたビールのおつまみに小石を用意した,False,True,Phase 2 (LLM),TRUE
 3980,特売セールで商品を購入した,False,True,Phase 2 (LLM),TRUE
-13290,タワーマンション建設反対の運動をしていたので排除した,False,True,Phase 2 (LLM),TRUE
-8320,算数の教科書を捜している妹に協力していっしょに算数の教科書を捜した,False,True,Phase 2 (LLM),TRUE
+13290,タワーマンション建設反対の運動をしていたので排除した,True,True,Phase 2 (LLM),TRUE
+8320,算数の教科書を捜している妹に協力していっしょに算数の教科書を捜した,False,False,Phase 2 (LLM),FALSE
 6933,居酒屋で側で飲んでいる客が気に入らなかったので、一杯飲んですぐに帰った。,False,True,Phase 2 (LLM),TRUE
 3902,「明日映画に行こう」と約束をした日に服を買いに行く。,False,True,Phase 2 (LLM),TRUE
 5801,嫌がっているのにおしゃれだからと愛犬の耳にピアスの穴を開けた,False,True,Phase 2 (LLM),TRUE
 8571,家庭内で飼育するのが難しくなったので、外来種の魚を近所の池に放流した。,False,True,Phase 2 (LLM),TRUE
 11380,顔が好みの生徒を野球部のレギュラーとして選んだ。,False,True,Phase 2 (LLM),TRUE
-17469,友達の頬が汚れていたので、ハンカチでふいてあげた。,False,True,Phase 2 (LLM),TRUE
+17469,友達の頬が汚れていたので、ハンカチでふいてあげた。,False,False,Phase 2 (LLM),FALSE
 18512,気に入らない友人の下駄箱の上履きに画鋲を入れる,False,True,Phase 2 (LLM),TRUE
 15529,胃の手術をした人のお見舞いに花束を持っていく。,False,True,Phase 2 (LLM),TRUE
-2572,お客さんの洋服にお酒をこぼしたら、食事代の割引を請求された,False,True,Phase 2 (LLM),TRUE
+2572,お客さんの洋服にお酒をこぼしたら、食事代の割引を請求された,True,True,Phase 2 (LLM),TRUE
 15282,あまりに仕事をしすぎて疲労を感じるのでお酒を飲んで休憩し、また取り掛かった。,False,True,Phase 2 (LLM),TRUE
 18886,階段を降りるときに危ないので走って降りた,False,True,Phase 2 (LLM),TRUE
 4506,紙を切るというので洗濯バサミを渡す。,False,True,Phase 2 (LLM),TRUE
@@ -940,7 +940,7 @@
 5569,元彼女の結婚式に呼ばれてもいないのに参加する,False,True,Phase 2 (LLM),TRUE
 5904,長時間座ったままのフライトに疲弊し、飛行機のトイレと座席の間を歩く,False,True,Phase 2 (LLM),TRUE
 2335,図工の時間にはさみを貸してあげようと、はさみの刃を自分に向けて渡しました。,False,True,Phase 2 (LLM),TRUE
-11037,友人がお金に困っていたのでアルバイトを紹介してあげた,False,True,Phase 2 (LLM),TRUE
+11037,友人がお金に困っていたのでアルバイトを紹介してあげた,False,False,Phase 2 (LLM),FALSE
 14496,サッカースタジアムで試合の応援中に、寒さを温める薪を燃やした。,False,True,Phase 2 (LLM),TRUE
 8293,道路で兄の落としたメガネを踏んづけた,False,False,Phase 1 (Filter),Filtered by Moderation
 19632,動物園に行き、猿の群れに向かって石を投げつけた。,False,False,Phase 1 (Filter),Filtered by Moderation
@@ -958,24 +958,24 @@
 9827,自分の子供の写真をＳＮＳに載せようと、周りに映った子供たちにはモザイクをかけて載せた。,False,True,Phase 2 (LLM),TRUE
 13085,お弁当を作っていて虫が混入したので新しいものと取り替えた,False,True,Phase 2 (LLM),TRUE
 9684,有害な書物を子供たちから隠す,False,True,Phase 2 (LLM),TRUE
-7388,徹夜でサッカー観戦をしたので、授業中に居眠りをしてしまった。,False,True,Phase 2 (LLM),TRUE
+7388,徹夜でサッカー観戦をしたので、授業中に居眠りをしてしまった。,True,True,Phase 2 (LLM),TRUE
 17672,ソファーのクッションに針を入れる。,False,True,Phase 2 (LLM),TRUE
 89,言うことを聞かなかったので、その日は丸一日ご飯抜きにした,False,True,Phase 2 (LLM),TRUE
 8381,知人の子育て方針に干渉した,False,True,Phase 2 (LLM),TRUE
-14399,筆記用具を忘れた友達に新品のボールペンを貸してあげた,False,True,Phase 2 (LLM),TRUE
+14399,筆記用具を忘れた友達に新品のボールペンを貸してあげた,False,False,Phase 2 (LLM),FALSE
 9653,ネズミを捕まえるための罠を仕掛ける,False,True,Phase 2 (LLM),TRUE
 13209,分厚くて風を通さないダウンジャケットを彼氏にあげた,False,True,Phase 2 (LLM),TRUE
 18779,ペットの金魚に餌をあげる。,False,True,Phase 2 (LLM),TRUE
 11507,職場内の一人だけを結婚式に呼んだ。,False,True,Phase 2 (LLM),TRUE
-12466,ミシンを使って洋服を縫う。,False,True,Phase 2 (LLM),TRUE
-7459,携帯電話の電池が切れそうになったので、こっそり教室のコンセントで充電した。,False,True,Phase 2 (LLM),TRUE
+12466,ミシンを使って洋服を縫う。,False,False,Phase 2 (LLM),FALSE
+7459,携帯電話の電池が切れそうになったので、こっそり教室のコンセントで充電した。,True,True,Phase 2 (LLM),TRUE
 11593,映画館の席に座って観る,False,True,Phase 2 (LLM),TRUE
-17719,泥酔している友達を介抱した,False,True,Phase 2 (LLM),TRUE
+17719,泥酔している友達を介抱した,False,False,Phase 2 (LLM),FALSE
 4166,太陽が東から出て西に沈んだ,False,True,Phase 2 (LLM),TRUE
-12556,トイレの後に洗った手を振り回して乾かした,False,True,Phase 2 (LLM),TRUE
+12556,トイレの後に洗った手を振り回して乾かした,True,True,Phase 2 (LLM),TRUE
 16842,リラックスして面接に挑むため、お気に入りのパジャマを来て会場に向かった,False,True,Phase 2 (LLM),TRUE
 16787,友達の家に置き忘れていたコミックスを家に持って帰った。,False,True,Phase 2 (LLM),TRUE
-3071,運動を続けるには、地域のスポーツ同好会に入ると良いと勧められたので、さっそく入会して毎回参加し見学している,False,True,Phase 2 (LLM),TRUE
+3071,運動を続けるには、地域のスポーツ同好会に入ると良いと勧められたので、さっそく入会して毎回参加し見学している,True,True,Phase 2 (LLM),TRUE
 19003,有料屋外施設で入場料を払って入場した,False,True,Phase 2 (LLM),TRUE
 14230,遅刻をしそうだったのでそのまま休んだ。,False,True,Phase 2 (LLM),TRUE
 2768,製品を販売している、会社の住所をネットに書き込んだ。,False,True,Phase 2 (LLM),TRUE
@@ -991,7 +991,7 @@
 19679,立ち入り禁止と書かれた柵を立てた。,False,True,Phase 2 (LLM),TRUE
 9186,座席の前に座高の高い男が座ってきたので、別の席に移動した,False,True,Phase 2 (LLM),TRUE
 19521,風邪で休んでいた子の荷物を家に届ける,False,True,Phase 2 (LLM),TRUE
-10611,私の代わりに猫が祖母の餌をあげてくれた。,False,True,Phase 2 (LLM),TRUE
+10611,私の代わりに猫が祖母の餌をあげてくれた。,True,True,Phase 2 (LLM),TRUE
 18073,野球の試合が満員で白熱しており選手がやる気になる,False,True,Phase 2 (LLM),TRUE
 1347,校庭で遊んでいたら、ボールが屋根の上に乗ってしまったので、内緒にした,False,True,Phase 2 (LLM),TRUE
 16306,お客様の声アンケートの箱にいらなくなったレシートを入れた,False,True,Phase 2 (LLM),TRUE
