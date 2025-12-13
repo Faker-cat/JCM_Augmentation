@@ -1,6 +1,6 @@
 === 実験結果レポート ===
 Model: llm-jp/llm-jp-3.1-13b-instruct4
-Prompt: v01_base.txt
+Prompt: v02_base.txt
 Temperature: 0.1
 Total Samples: 1000
 Phase 1 Filtered: 50
@@ -12,10 +12,10 @@ Phase 1 Filtering Analysis:
  Filter Risk Rate (GT=True among filtered): 0.0000
 ------------------------------
 Confusion Matrix (Target: Ambiguous/True):
- TP: 71, FN: 0
- FP: 846, TN: 83
+ TP: 61, FN: 10
+ FP: 521, TN: 408
 ------------------------------
-Accuracy : 0.154
-Precision: 0.07742639040348964
-Recall   : 1.0
-F1 Score : 0.1437246963562753
+Accuracy : 0.469
+Precision: 0.10481099656357389
+Recall   : 0.8591549295774648
+F1 Score : 0.18683001531393567
