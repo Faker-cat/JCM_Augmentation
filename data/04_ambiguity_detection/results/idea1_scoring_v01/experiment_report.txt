@@ -1,0 +1,19 @@
+=== 曖昧度スコアリング実験レポート ===
+Model: llm-jp/llm-jp-3.1-13b-instruct4
+Prompt: v05_scoring_base.txt
+------------------------------
+Score Distribution Summary (Count of Ground Truth Labels):
+gt_is_ambiguous  False  True  Total  True_Ratio
+predicted_score                                
+0                    3     0      3    0.000000
+1                    0     0      0         NaN
+2                    8     4     12    0.333333
+3                    3     2      5    0.400000
+4                    0     0      0         NaN
+5                  756    58    814    0.071253
+6                    0     0      0         NaN
+7                   35     2     37    0.054054
+8                   12     1     13    0.076923
+9                    2     0      2    0.000000
+10                  60     4     64    0.062500
+------------------------------

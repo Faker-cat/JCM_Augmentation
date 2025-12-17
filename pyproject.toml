@@ -20,6 +20,8 @@ python-dotenv = "^1.2.1"
 vllm = "^0.12.0"
 scikit-learn = "^1.7.2"
 accelerate = "^1.12.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
 
 
 [build-system]

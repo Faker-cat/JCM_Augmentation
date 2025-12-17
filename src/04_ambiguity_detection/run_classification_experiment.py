@@ -1,5 +1,6 @@
-# 情報欠損文章の検出実験スクリプト (最小限のハイブリッド版)
-import argparse  # ★ [追加]: 引数解析のため
+# 情報欠損文章の検出実験スクリプト
+# プロンプトのみを調整可能にしたバージョン
+import argparse
 import os
 
 import pandas as pd
