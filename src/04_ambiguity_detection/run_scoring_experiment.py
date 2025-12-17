@@ -1,4 +1,5 @@
 # src/04_ambiguity_detection/run_scoring_experiment.py
+# idea1:曖昧度スコアリング実験を実行するスクリプト
 import argparse
 import os
 import re
