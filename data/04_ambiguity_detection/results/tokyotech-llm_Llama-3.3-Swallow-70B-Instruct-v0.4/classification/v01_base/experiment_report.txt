@@ -1,0 +1,21 @@
+=== 実験結果レポート ===
+Model: tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4
+Prompt: v01_base.txt
+Temperature: 0.1
+Total Samples: 1000
+Phase 1 Filtered: 50
+------------------------------
+Phase 1 Filtering Analysis:
+ Total Samples Filtered (Phase 1): 50
+ Ambiguous Samples among Filtered (GT=True): 0 (見逃し)
+ Filter Success Rate (GT=False among filtered): 1.0000
+ Filter Risk Rate (GT=True among filtered): 0.0000
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 54, FN: 17
+ FP: 397, TN: 532
+------------------------------
+Accuracy : 0.586
+Precision: 0.1197339246119734
+Recall   : 0.7605633802816901
+F1 Score : 0.20689655172413793

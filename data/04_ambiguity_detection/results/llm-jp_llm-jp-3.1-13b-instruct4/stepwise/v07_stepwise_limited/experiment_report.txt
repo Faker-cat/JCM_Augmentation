@@ -1,0 +1,21 @@
+=== 実験結果レポート (Stepwise) ===
+Model: llm-jp/llm-jp-3.1-13b-instruct4
+Prompt: v07_stepwise_limited.txt
+Temperature: 0.1
+Total Samples: 10
+Phase 1 Filtered: 0
+------------------------------
+Phase 1 Filtering Analysis:
+ Total Samples Filtered (Phase 1): 0
+ Ambiguous Samples among Filtered (GT=True): 0 (見逃し)
+ Filter Success Rate (GT=False among filtered): 0.0000
+ Filter Risk Rate (GT=True among filtered): 0.0000
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 1, FN: 0
+ FP: 7, TN: 2
+------------------------------
+Accuracy : 0.3
+Precision: 0.125
+Recall   : 1.0
+F1 Score : 0.2222222222222222
