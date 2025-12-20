@@ -1,6 +1,10 @@
 === 曖昧度スコアリング実験レポート ===
 Model: llm-jp/llm-jp-3.1-13b-instruct4
 Prompt: v05_scoring_base.txt
+Temperature: 0.1
+Total Samples: 1000
+Phase 1 Filtered (Excluded): 50
+Scored Samples: 950
 ------------------------------
 Score Distribution Summary (Count of Ground Truth Labels):
 gt_is_ambiguous  False  True  Total  True_Ratio
