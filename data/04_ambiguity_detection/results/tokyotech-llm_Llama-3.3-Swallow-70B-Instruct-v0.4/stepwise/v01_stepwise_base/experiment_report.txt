@@ -1,0 +1,21 @@
+=== 実験結果レポート (Stepwise) ===
+Model: tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4
+Prompt: v01_stepwise_base.txt
+Temperature: 0.1
+Total Samples: 10
+Phase 1 Filtered: 0
+------------------------------
+Phase 1 Filtering Analysis:
+ Total Samples Filtered (Phase 1): 0
+ Ambiguous Samples among Filtered (GT=True): 0 (見逃し)
+ Filter Success Rate (GT=False among filtered): 0.0000
+ Filter Risk Rate (GT=True among filtered): 0.0000
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 1, FN: 0
+ FP: 8, TN: 1
+------------------------------
+Accuracy : 0.2
+Precision: 0.1111111111111111
+Recall   : 1.0
+F1 Score : 0.2

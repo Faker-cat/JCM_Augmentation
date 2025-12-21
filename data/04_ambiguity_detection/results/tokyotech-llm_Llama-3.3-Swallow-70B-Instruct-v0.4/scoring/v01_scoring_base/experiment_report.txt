@@ -1,0 +1,23 @@
+=== 曖昧度スコアリング実験レポート ===
+Model: tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4
+Prompt: v01_scoring_base.txt
+Temperature: 0.1
+Total Samples: 1000
+Phase 1 Filtered (Excluded): 50
+Scored Samples: 950
+------------------------------
+Score Distribution Summary (Count of Ground Truth Labels):
+gt_is_ambiguous  False  True  Total  True_Ratio
+predicted_score                                
+0                  176     2    178    0.011236
+1                    0     0      0         NaN
+2                  419     9    428    0.021028
+3                    0     0      0         NaN
+4                    0     0      0         NaN
+5                  183    46    229    0.200873
+6                    0     0      0         NaN
+7                   15     2     17    0.117647
+8                   65     9     74    0.121622
+9                    0     0      0         NaN
+10                  21     3     24    0.125000
+------------------------------
