@@ -57,12 +57,12 @@ def load_model(model_id):
 def load_and_merge_data():
     """GTデータとModeration結果を統合する"""
     df_gt = pd.read_csv(GT_FILE_PATH)
-    if "Aのフラグ" in df_gt.columns:
-        df_gt["gt_is_ambiguous"] = df_gt["Aのフラグ"].map(
+    if "gt_majority" in df_gt.columns:
+        df_gt["gt_is_ambiguous"] = df_gt["gt_majority"].map(
             lambda x: True if str(x).strip().upper() == "TRUE" else False
         )
     else:
-        raise ValueError("GTファイルに 'Aのフラグ' カラムが見つかりません。")
+        raise ValueError("GTファイルに 'gt_majority' カラムが見つかりません。")
 
     df_mod = pd.read_csv(MODERATION_RESULTS_PATH)
     df_gt["Original_ID"] = pd.to_numeric(df_gt["Original_ID"], errors="coerce")
