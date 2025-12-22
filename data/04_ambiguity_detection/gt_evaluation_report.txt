@@ -1,0 +1,19 @@
+=== 評価者合意度レポート (Ground Truth Analysis) ===
+Total Samples: 1000
+----------------------------------------
+Agreement Metrics:
+ Complete Agreement Rate : 0.9250
+ Average Agreement Number: 2.9250 / 3.0
+----------------------------------------
+Reliability Metrics (Kappa):
+ Average Pairwise Kappa  : 0.5792
+ Fleiss' Kappa           : 0.5806
+----------------------------------------
+GT Label Distribution:
+ Majority (>=2) True    : 58
+ Union (>=1) True       : 104
+----------------------------------------
+Calculation Details:
+ Boss True Count        : 66
+ Faker True Count       : 68
+ Mila True Count        : 57
