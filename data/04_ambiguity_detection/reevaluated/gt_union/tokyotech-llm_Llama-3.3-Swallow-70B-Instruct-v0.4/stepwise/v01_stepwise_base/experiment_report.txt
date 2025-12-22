@@ -1,0 +1,13 @@
+=== 再評価レポート (gt_union) ===
+Method: stepwise
+Model: tokyotech-llm_Llama-3.3-Swallow-70B-Instruct-v0.4
+Prompt: v01_stepwise_base
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 2, FN: 0
+ FP: 7, TN: 1
+------------------------------
+Accuracy : 0.3000
+Precision: 0.2222
+Recall   : 1.0000
+F1 Score : 0.3636

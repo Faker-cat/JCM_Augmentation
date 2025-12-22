@@ -1,3 +1,4 @@
+# 混合行列の各要素ごとにデータを分割し、個別のCSVファイルとして保存するスクリプト
 from pathlib import Path
 
 import pandas as pd

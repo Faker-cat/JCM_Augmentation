@@ -1,4 +1,4 @@
-﻿truOriginal_ID,sent,gt_is_ambiguous,pred_is_ambiguous,phase,llm_raw_response
+﻿Original_ID,sent,gt_is_ambiguous,pred_is_ambiguous,phase,llm_raw_response
 2200,そうじを友人と一緒に終わらせた。,False,False,Phase 2 (LLM),FALSE
 13718,運転中のドライバーが寝ないで集中できるように話しかけてあげた,False,False,Phase 2 (LLM),FALSE
 16249,公共施設の壁に「ポケットティッシュをご自由にお取りください」とあったが持ち帰らなかった,False,False,Phase 2 (LLM),FALSE

@@ -1,0 +1,13 @@
+=== 再評価レポート (gt_union) ===
+Method: classification
+Model: llm-jp_llm-jp-3.1-13b-instruct4
+Prompt: v02_base
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 87, FN: 17
+ FP: 495, TN: 401
+------------------------------
+Accuracy : 0.4880
+Precision: 0.1495
+Recall   : 0.8365
+F1 Score : 0.2536

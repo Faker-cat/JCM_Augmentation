@@ -1,0 +1,28 @@
+=== 再評価レポート (gt_majority) ===
+Method: scoring
+Model: tokyotech-llm_Llama-3.3-Swallow-70B-Instruct-v0.4
+Prompt: v01_scoring_base
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 51, FN: 7
+ FP: 293, TN: 599
+------------------------------
+Accuracy : 0.6842
+Precision: 0.1483
+Recall   : 0.8793
+F1 Score : 0.2537
+------------------------------
+Score Distribution Summary:
+gt_majority      False  True 
+predicted_score              
+0                  178      0
+1                    0      0
+2                  421      7
+3                    0      0
+4                    0      0
+5                  189     40
+6                    0      0
+7                   15      2
+8                   67      7
+9                    0      0
+10                  22      2
