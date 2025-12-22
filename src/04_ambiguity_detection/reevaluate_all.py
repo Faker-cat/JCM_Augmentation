@@ -1,9 +1,11 @@
 # src/04_ambiguity_detection/reevaluate_all.py
-# 再評価スクリプト: 既存の推論結果をマスターGTに基づいて再評価し、指標を算出・保存する
+# 既存の曖昧度検出実験結果をマスターGTに基づいて再評価するスクリプト
 import argparse
 import os
 
+import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns
 from sklearn.metrics import (
     accuracy_score,
     confusion_matrix,
@@ -21,10 +23,16 @@ MASTER_GT_PATH = os.path.join(
 OUTPUT_ROOT = os.path.join(BASE_DIR, "data", "04_ambiguity_detection", "reevaluated")
 
 
+def clean_columns(df):
+    """BOMや余計な空白を除去してカラム名を正規化する (KeyError対策)"""
+    df.columns = [c.strip().replace("\ufeff", "") for c in df.columns]
+    return df
+
+
 def calculate_classification_metrics(df, gt_col, pred_col):
     """二値分類指標の計算"""
-    y_true = df[gt_col]
-    y_pred = df[pred_col]
+    y_true = df[gt_col].astype(bool)
+    y_pred = df[pred_col].astype(bool)
     cm = confusion_matrix(y_true, y_pred, labels=[True, False])
     tp, fn = cm[0]
     fp, tn = cm[1]
@@ -65,21 +73,18 @@ def generate_report_text(method, model, prompt, gt_type, metrics, extra_info="")
 
 
 def main(args):
-    # 1. マスターGTのロード
-    master_gt = pd.read_csv(MASTER_GT_PATH)
+    # 1. マスターGTのロード (多数決と1人以上基準を読み込む)
+    master_gt = clean_columns(pd.read_csv(MASTER_GT_PATH, encoding="utf-8-sig"))
     gt_cols = ["gt_majority", "gt_union"]
 
     # 2. Resultsフォルダ内を探索
     for root, dirs, files in os.walk(RESULTS_ROOT):
-        # パスから情報を抽出 (例: results/MODEL/METHOD/PROMPT)
         rel_path = os.path.relpath(root, RESULTS_ROOT)
         path_parts = rel_path.split(os.sep)
         if len(path_parts) < 3:
             continue
-
         model_name, method, prompt_name = path_parts[0], path_parts[1], path_parts[2]
 
-        # --- 引数によるフィルタリング ---
         if args.model and args.model != model_name:
             continue
         if args.method and args.method != method:
@@ -87,22 +92,28 @@ def main(args):
         if args.prompt and args.prompt != prompt_name:
             continue
 
-        # ファイル特定
+        # ファイル名の特定とメソッドの判定
         target_file = None
-        if method == "classification" and "results.csv" in files:
+        if "results.csv" in files:
             target_file = "results.csv"
-        elif method == "scoring" and "scoring_results.csv" in files:
+        elif "scoring_results.csv" in files:
             target_file = "scoring_results.csv"
-        elif method == "stepwise" and "stepwise_results.csv" in files:
+        elif "stepwise_results.csv" in files:
             target_file = "stepwise_results.csv"
 
         if not target_file:
             continue
-
         print(f"Re-evaluating: {model_name} / {method} / {prompt_name}")
 
-        # 3. データの結合と再評価
-        df_pred = pd.read_csv(os.path.join(root, target_file))
+        # 3. 推論データのロードと正規化
+        df_pred = clean_columns(
+            pd.read_csv(os.path.join(root, target_file), encoding="utf-8-sig")
+        )
+        # 既存の古いGT列（もしあれば）を削除して、マスターGTから結合する
+        cols_to_drop = [
+            c for c in df_pred.columns if c in gt_cols or c == "gt_is_ambiguous"
+        ]
+        df_pred = df_pred.drop(columns=cols_to_drop)
         df_merged = df_pred.merge(
             master_gt[["Original_ID"] + gt_cols], on="Original_ID", how="left"
         )
@@ -114,23 +125,63 @@ def main(args):
             os.makedirs(out_dir, exist_ok=True)
 
             extra_info = ""
+            metrics = {}
+
             if method == "scoring":
+                # --- Scoring 特有の処理 ---
                 summary = pd.crosstab(
                     df_merged["predicted_score"], df_merged[gt_type]
                 ).reindex(range(11), fill_value=0)
+                summary["Total"] = summary.sum(axis=1)
+                summary["True_Ratio"] = summary[True] / summary["Total"]
                 extra_info = "Score Distribution Summary:\n" + summary.to_string()
-                df_merged["binary_pred"] = (
-                    df_merged["predicted_score"] >= 5
-                )  # 閾値5で暫定判定
+
+                # スコア集計表の保存
+                summary.to_csv(
+                    os.path.join(out_dir, "score_summary_table.csv"),
+                    encoding="utf-8-sig",
+                )
+
+                # 可視化の保存
+                plt.figure(figsize=(10, 6))
+                sns.histplot(
+                    data=df_merged,
+                    x="predicted_score",
+                    hue=gt_type,
+                    multiple="stack",
+                    bins=11,
+                    binrange=(0, 11),
+                )
+                plt.title(f"Re-evaluated: {prompt_name} ({gt_type})")
+                plt.savefig(os.path.join(out_dir, "score_distribution.png"))
+                plt.close()
+
+                # 二値評価としてのメトリクス (閾値5で判定)
+                df_merged["binary_pred"] = df_merged["predicted_score"] >= 5
                 metrics = calculate_classification_metrics(
                     df_merged, gt_type, "binary_pred"
                 )
+                df_merged.to_csv(
+                    os.path.join(out_dir, "scoring_results.csv"),
+                    index=False,
+                    encoding="utf-8-sig",
+                )
+
             else:
+                # --- Classification / Stepwise の処理 ---
                 metrics = calculate_classification_metrics(
                     df_merged, gt_type, "pred_is_ambiguous"
                 )
+                filename = (
+                    "results.csv"
+                    if method == "classification"
+                    else "stepwise_results.csv"
+                )
+                df_merged.to_csv(
+                    os.path.join(out_dir, filename), index=False, encoding="utf-8-sig"
+                )
 
-            # 保存
+            # レポート保存
             report_text = generate_report_text(
                 method, model_name, prompt_name, gt_type, metrics, extra_info
             )
@@ -141,19 +192,13 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="既存の推論結果を指定して再評価を行う")
-    parser.add_argument(
-        "--model", type=str, help="特定のモデル名 (例: llm-jp_llm-jp-3.1-13b-instruct4)"
-    )
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", type=str, help="モデル名")
     parser.add_argument(
         "--method",
         type=str,
         choices=["classification", "scoring", "stepwise"],
-        help="特定の手法名",
+        help="手法名",
     )
-    parser.add_argument(
-        "--prompt", type=str, help="特定のプロンプトファイル名 (拡張子なし)"
-    )
-
-    args = parser.parse_args()
-    main(args)
+    parser.add_argument("--prompt", type=str, help="プロンプト名")
+    main(parser.parse_args())

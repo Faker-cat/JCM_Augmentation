@@ -13,16 +13,16 @@ Recall   : 0.9483
 F1 Score : 0.1113
 ------------------------------
 Score Distribution Summary:
-gt_majority      False  True 
-predicted_score              
-0                    3      0
-1                    0      0
-2                   10      2
-3                    4      1
-4                    0      0
-5                  762     52
-6                    0      0
-7                   36      1
-8                   12      1
-9                    2      0
-10                  63      1
+gt_majority      False  True  Total  True_Ratio
+predicted_score                                
+0                    3     0      3    0.000000
+1                    0     0      0         NaN
+2                   10     2     12    0.166667
+3                    4     1      5    0.200000
+4                    0     0      0         NaN
+5                  762    52    814    0.063882
+6                    0     0      0         NaN
+7                   36     1     37    0.027027
+8                   12     1     13    0.076923
+9                    2     0      2    0.000000
+10                  63     1     64    0.015625
