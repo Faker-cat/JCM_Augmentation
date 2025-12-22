@@ -1,0 +1,11 @@
+truOriginal_ID,sent,gt_is_ambiguous,pred_is_ambiguous,phase,llm_raw_response
+8483,両手が塞がってドアを開けづらそうにしていたので、挨拶した。,True,False,Phase 2 (LLM),FALSE
+11293,会社の機密事項を部署内で共有した。,True,False,Phase 2 (LLM),FALSE
+6069,ボトルメールに憧れてペットボトルに手紙を入れて海へ流す,True,False,Phase 2 (LLM),FALSE
+18120,高級な卵が手に入らないと、美味しいオムレツは作れない。,True,False,Phase 2 (LLM),FALSE
+6416,病状が判断できないので、救急車を呼ぶ,True,False,Phase 2 (LLM),FALSE
+2236,友達の折り紙を折る。,True,False,Phase 2 (LLM),FALSE
+10400,アイスクリームを冷蔵庫の中に入れておいた。,True,False,Phase 2 (LLM),FALSE
+8822,友達の素晴らしい特技をネットに公開する,True,False,Phase 2 (LLM),FALSE
+4848,混んでいる電車の中で、膝をつけて座る。,True,False,Phase 2 (LLM),FALSE
+9732,食べ切れない野菜を廃棄する,True,False,Phase 2 (LLM),FALSE

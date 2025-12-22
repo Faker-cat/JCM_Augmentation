@@ -1,0 +1,58 @@
+Original_ID,sent,gt_is_ambiguous,pred_is_ambiguous,phase,llm_raw_response
+8483,両手が塞がってドアを開けづらそうにしていたので、挨拶した。,True,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、状況が明確"
+11207,隣の住人が旅行で留守にしていたので庭の花壇に水を撒いた,True,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+隣人が留守中に庭の"
+4450,葬式に胡蝶蘭を贈る,True,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+葬式に胡蝶蘭"
+8609,猛暑で喉が渇いていると思うので、メロンパンをあげよう。,True,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、相手への配�"
+116,SNSで実際の年齢と性別を書いて友達を募集する,True,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+11016,寒そうにしている友人にアイスコーヒーをご馳走してあげた,True,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、友人に飲"
+6416,病状が判断できないので、救急車を呼ぶ,True,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、状況が緊急"
+2236,友達の折り紙を折る。,True,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、友達の折"
+10400,アイスクリームを冷蔵庫の中に入れておいた。,True,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、アイスクリーム"
+3071,運動を続けるには、地域のスポーツ同好会に入ると良いと勧められたので、さっそく入会して毎回参加し見学している,True,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"

@@ -1,0 +1,2003 @@
+Original_ID,sent,gt_is_ambiguous,pred_is_ambiguous,phase,llm_raw_response
+2200,そうじを友人と一緒に終わらせた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、友人と協"
+13718,運転中のドライバーが寝ないで集中できるように話しかけてあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他者を助"
+9094,新幹線の予約席がいっぱいだったため、自由席に座った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+新幹線の予約席がいっぱいだった"
+7102,朝の9時に掃除機をかけ、洗濯機を回した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、日常的な家"
+16307,お客様の声アンケートの箱にアンケートを記入した紙を入れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的な行動であり"
+16936,手に入れたスイカを、人の頭に当てて割った,False,False,Phase 1 (Filter),Filtered by Moderation
+3126,漬け物が好きなので、ぬか床を作って、冷蔵庫にあった新鮮な野菜を漬ける,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、個"
+1148,電車で妊婦さんを見かけて、席を譲った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的に善と"
+10964,缶詰を開けようとしている妹にハンマーを渡した,False,False,Phase 1 (Filter),Filtered by Moderation
+7900,徒歩通学できる、大学近くに下宿する,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+7145,コンビニの弁当は必ずマイ箸で食べる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、環境問題への意"
+11787,授業が始まるので、先生に礼をする,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+授業開始時の礼儀作法"
+11851,泣いている赤ちゃんにミルクを飲ませた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+赤ちゃんが泣いている状況でミ"
+18561,飼い猫が子猫をたくさん産んだが育てきれないので、里親を募集した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、飼い主"
+352,年の瀬の準備をしている,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単なる事実"
+11343,クリスマスプレゼントに、来年の手帳を入れてラッピングした。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、プレゼントの"
+10464,貴重な本のページをそっとめくりながら読んだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、貴重な本"
+11613,電車で杖を突いた人がいたので、席を譲る,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、状況が明確"
+13784,冬の寒い洗面所で顔を洗うのにお湯を出した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、日常的な行"
+2931,眼鏡が合わなくなったので、家族の眼鏡を譲ってもらう,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、家族間で眼"
+18439,後輩にお酒のおいしいお店に行こうと勧めた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、後輩に"
+1693,野球観戦する,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+15867,とてもきれいな景色だったので動画に撮って保存した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、景色を動"
+14019,目的地がわからなかったので運転を止めて地図を調べた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、運転中に目的"
+11075,愛犬が寒そうだったので犬用の服を着せた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+犬の服を着せる行為"
+14611,横断歩道を渡ろうとしている老人を見かけたため、車を停止させた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、状況が明確"
+4511,買ったばかりの服にアイロンをかける。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、日常的な行"
+17069,墓を掃除する,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+墓掃除は一般的に善"
+18841,友達からもらったプレゼントを友達の目の前で開けた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、プレゼントを開"
+12312,包丁を使って、肉や野菜を切る。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、包丁の使用"
+16207,以前の勤め先社長が亡くなりお葬式に行ったらかつての同僚たちに会うことが出来て懐かしかった。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+13295,お客様に出すお茶を注ぐのに新しいコップを使った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、状況が明確"
+16622,大勢で買い物に行く,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単に大勢"
+13083,夢中で仕事をしていた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単に「夢"
+19935,道端に鍵のかかっていない自転車が捨てられていたので、警察に通報した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、自転車が"
+386,ボクシングジムに通いだす,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、ボクシング"
+12580,雪の降る中帰ってきた娘にホットココアを用意してあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、親が子供に"
+13537,山登りに行く息子に登山用シューズを用意した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、親が子供の"
+18721,かけうどんをテーブルに運んでくる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単なる動作"
+5533,敵国にミサイルで先制攻撃を仕掛ける,False,False,Phase 1 (Filter),Filtered by Moderation
+16583,人が苦しんでいると助けたくなる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、一般的な道徳"
+13247,運転中に救急車がサイレンを鳴らしてこちらに来たので路肩で停止した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、緊急車両"
+2865,患者の腕に、刺繍針を刺した。,False,False,Phase 1 (Filter),Filtered by Moderation
+2688,職場で剥がれていた付箋を、マスキングテープで固定しておいた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、職場での些"
+14097,プールの中でおしっこがしたくなったのでプールから上がってトイレに行く。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、プールで用"
+14357,地下鉄に乗るときに順番を守って乗った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、公共の場での"
+15217,結婚する友達のお祝いに祝いの電報を送った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+結婚のお祝い事に祝いの"
+17329,人の限界に挑戦するため、友人と富士登山をした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、友人と富"
+13323,美容院で髪を短く切ってくださいと言われたのでおしゃれな髪型にした,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、美"
+14219,脱水症の人に、コップに入れた水を差し出した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、脱水症状"
+15655,集合時間の15分前に到着した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+集合時間の15分前に到着"
+12850,外に布団を干している,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な家事"
+9392,天気が良かったので、布団を干した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、天候が良い"
+9809,怪しい人を見つけたので、110番した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、状況が明確"
+3288,母親の手伝いをする,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+「母親の手伝いをする"
+4982,無保険だったので福利厚生が手厚い会社に就職した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、就職の動"
+15393,喫煙場所でタバコを吸った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+喫煙場所での喫煙"
+13601,日本酒を熱燗にしたものが出来上がったのでおちょこに注いであげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、状況が明確"
+13097,愛犬をお散歩に連れて行くのに寒いといけないのでお洋服を着せた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、愛犬の健康"
+16277,無人販売所にて、お金を払う前に商品の確認をする,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、無人販売所"
+504,おもちゃのお皿に盛りつける,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、文脈が"
+8232,フードロス削減のため賞味期限近くのパンを販売した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、フードロス"
+2178,ポップコーンを食べながら、映画館で、好きな映画を静かに見た。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、映画館で映画"
+13673,強風で飛ばされそうになっていた子供を見て助けた,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+15502,喉を傷めている娘に唐辛子を食べさせる,False,False,Phase 1 (Filter),Filtered by Moderation
+439,彼氏の顎を鈍器で叩く,False,False,Phase 1 (Filter),Filtered by Moderation
+14967,病気になった友達の、お見舞いに行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+友達のお見舞いは一般"
+14429,路面が滑りそうだったので子供に気をつけさせた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、子供を危険"
+4473,マラソン大会の給水所で、ペットボトルに入れたアイソトニック飲料を置く,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、一般"
+5490,たとえ間違いがあった場合誰かに迷惑をかけるだろうと思い、気をつけて仕事をする。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+16977,そろそろ雪が降りそうなので冬用タイヤに付け替えた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、冬用のタイ"
+17633,望遠鏡を購入したので、隣の木に止まった鳥を眺めた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、望遠鏡を使"
+5072,ファミレスで頼んだものと違うものが来たので、店長を呼んで理由を聞いた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、顧客が"
+2784,銭湯の脱衣所で、服を脱いだ。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+13413,人気ラーメン店の行列の後に並んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、行列に並"
+10780,人のためになることを率先して行う,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、一般的に道徳"
+2741,野球で投手になったので、打者のお腹めがけて投球した。,False,False,Phase 1 (Filter),Filtered by Moderation
+12375,ピアノでクラシック音楽を演奏する。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+12210,紙コップにジュースを注ぐ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、日常的な行"
+1816,責任感を持つ,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+12327,溶けそうなアイスを急いで冷蔵庫に入れた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、状況が明確"
+1088,公衆トイレを汚してしまったので掃除して出てきた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、公衆トイ"
+3704,おにぎりの具に鮭を入れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、道徳的な判断"
+14799,無人レジで商品を全てスキャンして購入してから鞄に入れた,False,False,Phase 2 (LLM),"FALSE
+(解説: 無人レジでの購入は一般的に"
+15451,お客としてお金を払っていても店員に対しては礼儀正しくする。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的に常識"
+6386,子供が部活でレギュラーでは無かったが、チームの試合を応援しに行った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+子供がレギュラーではないにも"
+4326,動画撮影のため、無断で小鳥を捕った,False,False,Phase 1 (Filter),Filtered by Moderation
+6921,部屋のゴミ箱にポテトチップスの空き袋を捨てた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的なゴミ"
+12532,運動会でリレーを走る息子に下駄を買ってあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、親が子供の"
+15392,禁煙場所でタバコを吸った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+禁煙場所での喫煙は"
+18191,冬に温泉に入ろうと友達を誘った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+温泉に誘う行為"
+4421,校庭でバレーボールをする,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的なスポーツ"
+17007,綺麗に咲いているコスモスがあったので、毎日眺めた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他者を傷"
+12273,おにぎりに紙を巻いて食べる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な日本の"
+11079,注文されたコーヒーに砂糖とミルクを付けてお出しした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的なカフェ"
+3143,お気に入りのバッグが壊れたので、欲しがっていた親友にそのまま譲る,False,False,Phase 2 (LLM),"FALSE
+""""""
+
+
+
+### 解説:
+
+この文章は、親友にバ"
+15927,喉が渇いた人に水を飲ませる,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+14775,相談に対して親身に回答する,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、他者を助"
+2886,同僚のお弁当の卵焼きがふっくらしておいしそうだったので、「１つどうぞ」と言われたので頂いて食べる,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、同"
+8324,学食で自分の食べた後の食器を片付けて帰った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的に良い行"
+16666,遠足に行く娘の水筒の中に水を入れてあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、親が子供の"
+7754,公衆のお風呂でお風呂の中にタオルがつからないようにする。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、公衆浴場"
+19487,子供にお年玉として商品券をあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的に善と"
+16961,お客さんのためにお風呂に入浴剤を入れておく。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、サービス業における一般"
+11099,アンパンの中身に小豆を入れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、アンパンの一般"
+17803,担任の先生に出会ったので、挨拶をした。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的な社会的な"
+9348,転んでホームの下に落ちそうな人を、受け止めた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、明らかに他"
+12802,一生懸命働いていた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単に「一"
+5733,白熱した会議で、口うるさい相手を爆破した,False,False,Phase 1 (Filter),Filtered by Moderation
+3336,臭うまえにゴミを出す,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+12496,回転寿司で食べ終わったお皿をレーンに置いた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+回転寿司で食べ終わ"
+18001,取引先との約束の時間の10分前に会議室に着く。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、ビジネス"
+14003,今日も蕎麦打ちを見るために、来店をする。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、蕎麦打"
+14905,美術館で素敵な絵画を観た。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、美術館で"
+12222,お昼ごはんとして、おにぎりをラップに包んで用意した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な行為"
+448,作ってもらったパンケーキを食べる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、パンケーキ"
+5747,全裸で教室に入る,False,False,Phase 1 (Filter),Filtered by Moderation
+12555,お昼ご飯を食べた後職場の洗面所で歯を磨いた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な社会的な"
+16314,ジュース用の硝子のコップを割ったので、代わりに陶器のカップを用意する,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、状況が明確"
+16928,見たい映画があると言って知り合いとリビングのテレビで映画を見た,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、友人と映画"
+10287,環境に配慮した結果、ラーメン屋で割りばしを使うことを止めた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、環境保護という明"
+12140,白いシャツにケチャップの汚れが付いたので、急いで拭いた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、状況が明確"
+15721,青信号の横断歩道を子どもと一緒に渡った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的に安全で"
+16330,無造作に火薬を運んでいる,False,False,Phase 1 (Filter),Filtered by Moderation
+1298,有名な神社に行ったので、建物の写真を撮った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+神社の建物を撮影"
+5858,野菜嫌いの子どもへ食育の一環として細かく切ったトマトを食べさせる,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、食"
+13737,足をすりむいたので傷口に生姜汁を塗った,False,False,Phase 1 (Filter),Filtered by Moderation
+10996,水に味噌を溶かして朝ご飯の味噌汁を作った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的な家庭料理"
+15261,列車の座席を間違っていると指摘され、申し訳ないと詫びた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、状況が明確"
+19454,誰も意見を理解してくれなかったので、カッターの刃を入れた手紙を作った,False,False,Phase 1 (Filter),Filtered by Moderation
+3740,親しい友達にため口で話す。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+親しい友達との会話は"
+17561,犬を散歩させていて、犬が歩道の真ん中に糞をしたので、袋に入れて糞を持ち帰り家のトイレに捨てた,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、犬"
+5024,苦手な種類の仕事を任されたので、途中まではやってみたが難しいので上司に指示を仰いだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、困難な仕事"
+7792,ウォーキングにお茶を持っていく。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、ウォーキング"
+19611,陰で人を褒める。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+陰口ではなく、良いことを陰で"
+7921,ティッシュペーパーが無くなったのでポケットティッシュで代用した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、日常的な状況"
+14441,帰宅した息子に食べさせるために、レトルト食品をテーブルに置いた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、親が子供の"
+11908,昨日からの雪が積もっていたので子供にブーツを履かせた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、親が子供の"
+10388,台風が来るので、家の雨戸をしっかりと閉めた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、台風が来"
+11902,教室で生徒が倒れたので救急車を呼んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+生徒が倒れた状況で救"
+128,無人餃子販売所に行き、美味しそうな餃子を冷凍から取り出して購入した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、無人販売所"
+19180,子供にバタ足の練習をさせるため銭湯へ行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、親が子供の"
+2744,サッカーの試合で、敵陣のゴールにシュートを決めた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+サッカーの試合でゴール"
+3316,生徒を呼び出してほめる,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+17167,飛行機の座席に手荷物を持ち込む。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+飛行機の座席に手"
+14651,マッチでつけた火をろうそくにつけた,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+13283,踏切で音が鳴り遮断機が降りたので電車が通り過ぎるのを待った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、電車の安全"
+3985,ゴルフクラブで頭を打つ,False,False,Phase 1 (Filter),Filtered by Moderation
+3106,パソコンの動きが急に遅くなったので、ウイルスの感染を心配し、すぐにインターネットの接続を切断し、セキュリティソフトでパソコン全体をスキャンした,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+1528,家賃の支払い締切日までに、きっちり家賃を支払った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+家賃の支払いは"
+15519,イチゴ狩りに行って、カゴ一杯にイチゴを摘んだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、イチゴ�"
+1356,図書館に行ったら、友人がいたので好きな本を一緒に読んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+図書館で友人と本を"
+10225,母のシワシワの手にハンドクリームを塗ってあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、親孝行という"
+2190,敬老の日に、祖父母にお手紙を送った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的に善と"
+16727,アイディアが思いつかなかったので休憩した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、休憩を"
+6526,書くものを貸してと言われて、鉛筆を渡した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+鉛筆を貸す行為"
+13939,小麦アレルギーの子供に小麦の入っていない食事を食べさせた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+小麦アレルギーの子供"
+15547,家で料理をするために卵を割った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、日常的な行"
+10269,誰かの役に立ちたくて、被災地でのボランティア活動に参加した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、ボランティア"
+7181,葬式に喪服で出席する。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+葬式に喪服で"
+2146,おいしい焼きナスをみんなで食べた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、食事を共"
+9920,生後間もない息子の容体がおかしいので、動物病院へ連れてきた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、動物の健康"
+9512,腹を空かせて倒れていた少年にパンを渡す,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+12038,箱の中にたくさんのキャンディを詰め込んで妹にあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、妹にキャンディ"
+10027,受験をひかえる息子のために、たくさんの参考書を買ってあげた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、親が子供の"
+19503,故郷を離れて就職した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、故郷を"
+13399,授業中に寝ている生徒がいたので優しく起こしてあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他者を助"
+1454,車で急いでいたが、焦りは事故のもとなので安全運転に努めた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、安全運転を"
+17484,転勤する同僚に適当なプレゼントを手渡した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、転勤する同"
+19410,ペットを飼うことが出来ないので、怪獣や妖怪の動画を観て、飼った気持ちを味わう,False,False,Phase 2 (LLM),"FALSE
+(解説: ペットを飼えない状況で、"
+16728,鍋でコトコトと人肉を煮る。,False,False,Phase 1 (Filter),Filtered by Moderation
+19075,街中でクマに出くわしたので、急いで逃げた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、クマに出く"
+13382,柿の木にたくさん実がなっていたので猿にぶつけた,False,False,Phase 1 (Filter),Filtered by Moderation
+7496,子どもの野菜嫌いを直すため、野菜を細かく刻んでおかずに混ぜた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、親が子供の"
+3972,寒さをしのぐために暖を取った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、生存本能"
+17573,先生が一生懸命話をしているので、話を聞いた,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+9125,母の爪が伸びていたので、斧で切ってあげた,False,False,Phase 1 (Filter),Filtered by Moderation
+18619,高速道路でスピード違反にならないよう、速度を守って運転をした。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+高速道路での速度制限遵"
+7959,専門的な内容を簡略化して説明した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+専門的な内容を簡略化"
+14589,再婚相手の連れ子が結婚することになり、お祝いとして食事に誘って楽しんだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+再婚相手の連れ子との"
+9723,夕方に保育園へ息子を迎えに行く,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、親が子供を"
+3012,版画を彫って印刷したら、文字が逆になっていた事に気付き、逆さになった文字を活かた図案にして掘り直す,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、作者"
+8936,彼女への誕生日プレゼントにネックレスをあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、プレゼントを"
+16613,近くの山に山菜が落ちていないか探しに行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、山菜を採"
+13730,時間をかけるとおいしいと聞いたのでカレーを弱火で長時間煮込んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、料理の方法について"
+10017,事故を起こしたので警察を呼んだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+事故を起こした場合、警察に"
+13996,夜中に大きな騒音を出す隣人に、包丁を持って注意しに行った。,False,False,Phase 1 (Filter),Filtered by Moderation
+2302,高齢者をいじめる。,False,False,Phase 1 (Filter),Filtered by Moderation
+8632,短い距離の運転だけど、シートベルトつけた。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+18093,飼っていた馬にニンジンを与えた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+馬にニンジンを与える"
+17867,会社に遅刻しそうな時、同僚がタクシーで通ったので、事情を言って相乗りを頼んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章では、同僚が"
+7720,飼い犬の糞を持ち帰る。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+飼い犬の糞を"
+8890,自習時間に提出物を仕上げる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、自習時間に"
+15047,レストランで食事をして代金を支払った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な社会的な"
+972,おじいちゃんの肩を手で叩いた,False,False,Phase 1 (Filter),Filtered by Moderation
+452,刃物を取り出し助けにきた,False,False,Phase 1 (Filter),Filtered by Moderation
+829,電球を取り換えようと祖母を踏み台にした。,False,False,Phase 1 (Filter),Filtered by Moderation
+4731,学校の展示物を壊してしまったので、先生に告げる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、状況が明確"
+3469,電車に乗り遅れそうになったので走って駅へ向かった,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、電車に乗"
+11447,節電のため、自分の部屋の電気をすべて消した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+節電は一般的に推奨"
+6678,お年玉を自分からみて目上の人の子どもにあげるとき、図書券や商品券をあげる,False,False,Phase 2 (LLM),"FALSE
+(解説: お年玉の習慣として、目"
+19703,お腹がすいたので自分が持ってきたお弁当を食べる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、個人的な行"
+12064,一面の花畑を作るために花の種を埋めた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、花畑を作"
+9539,大事なテストを控えた友人に下剤を飲ませた,False,False,Phase 1 (Filter),Filtered by Moderation
+12138,子供がジャムで顔を汚していたので、頬を拭いた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、親が子供の"
+4549,楽しみにしていた映画のチケットを買ってあげる。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+8009,カレー用のにんじんを買い忘れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単なる買い"
+3275,自動販売機にコインを入れる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、自動販売機に"
+18732,重い荷物を持っている人に自分の持っている荷物を渡す。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+他人を助ける行為として"
+11627,これから料理をするので、髪の毛を束ねる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、料理をする際に"
+14261,夜中の騒音で眠れないと隣人から言われたので内容を聞いた上で謝罪をした,False,False,Phase 2 (LLM),"FALSE
+""""""
+
+
+
+### 解説:
+
+この文章は、騒音問題"
+12296,部屋が臭かったので、消臭スプレーをまいた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、状況が明確"
+2860,快晴の日に、海で泳いだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的に問題の"
+8613,足に擦り傷ができたので、塩を塗ってもらう。,False,False,Phase 1 (Filter),Filtered by Moderation
+13969,ダイエット中の友人にカロリーの少ないドリンクを飲ませた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、友人のダイエ"
+14020,図書館で大暴れをした。,False,False,Phase 1 (Filter),Filtered by Moderation
+14407,自宅に誤配達された手紙をそのまま郵便局へ届けた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+誤配達された手紙を�"
+1490,弟のケーキが冷蔵庫にあり、食べたかったが我慢した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+弟のケーキを食べる"
+9576,課題のレポートを期限前に提出した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+レポートを期限前に提出する"
+252,登山をしている時、後ろに他の登山客がいたので石が落ちないように気をつけた,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+11922,大切な資料を届けてほしいと頼まれたのでポストに入れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、依頼された行"
+3116,食材がなかったので、スーパーで一週間分まとめて購入する,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、日常的な買"
+14273,電車の切符の買い方がわからずに、買うのを手伝ってあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+電車の切符の買い"
+13173,結婚式をあげようとオープンしたばかりのホテルを予約した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、結婚式を挙"
+4044,プリンターの用紙が切れたので新しい用紙をセットした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、プリンターの"
+6608,喪中の間は周囲の理解を得て、地味目の浴衣で夏祭りに参加する,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+喪中の間は華や"
+14923,食べ放題で、食べきれる量の料理を取って全部完食した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、食べ放題で"
+1494,エサを与えないでくださいと書いていたので、パン屑を与えなかった,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+文章から、エサを与えない"
+12122,プールに入るので、水着に着替えた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、プールに入る"
+14201,出産祝いに、タオルを送った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+出産祝いは一般的に喜"
+4485,マラソン大会の給水所で、ペットボトルに入れたイオンウォーターを置く,False,False,Phase 2 (LLM),"FALSE
+(解説: 一般的に善とされる行為であり、追加"
+14625,動物厳禁のマンションなので、猫を飼うのはあきらめた,False,False,Phase 2 (LLM),"FALSE
+""""""
+
+
+
+### 解説:
+
+この文章は、動物飼"
+14025,ムシャクシャしていたので、カラオケに行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、感情的な状態を"
+6791,窮屈なのが嫌なので、ラッシュアワーを避けて電車に乗る。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、個人の好み"
+4497,図書館の本をカウンターで借りる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+図書館の本を借りる"
+3212,個人情報を秘匿する,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+10372,絵日記に夏休みの楽しい出来事を描いた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、絵日記に"
+3001,賃貸マンションのお風呂のカランに水垢が付いたので、クレンザーをかけ、ステンレスたわしで力を入れて磨く,False,False,Phase 2 (LLM),"FALSE
+(解説: 日常生活における清掃行為であり"
+14361,「起立」という号令がかかったので、起立した,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+12053,自分に向かって友人がライフルを撃つ,False,False,Phase 1 (Filter),Filtered by Moderation
+18053,地震で避難所の被災者向けに炊き出しのボランティアをした。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、他者を助"
+11265,レストランの料理が口に合わなかったので、シェフに「少ししょっぱすぎました」と伝えた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、客が料理の"
+8021,取引先とリモートで商談をした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、リモートでの"
+18129,サッカーの試合のために出掛ける息子に昼食として手作り弁当を渡す,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+16066,一人の生徒をいじめるために、空地へと集まる。,False,False,Phase 1 (Filter),Filtered by Moderation
+12697,前方に遅い車が走っていたのでパッシングして避けてもらった,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、状況が明確"
+16467,段ボールを家の外にゴミに出したら、道路の真ん中に飛んでいたので集めて端っこに置いた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、状況が明確"
+15257,香りが良くなるようにと紅茶の中にレモンを入れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、紅茶にレ"
+3844,魚のいる水槽に水草を入れる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、水槽の"
+3847,気に入らないことがあるので、友達をトイレに閉じ込める。,False,False,Phase 1 (Filter),Filtered by Moderation
+12912,泣き止まないのでなだめる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、状況が限定的"
+11611,友達のおもちゃで遊びたくなったので、「貸して」と言う,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+2266,人を轢く。,False,False,Phase 1 (Filter),Filtered by Moderation
+9676,祖父の山で山菜取りをする,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、山菜取りという"
+9991,バリウムが苦手なので、代わりに胃カメラを選んだ。,False,False,Phase 2 (LLM),"FALSE
+""""""
+
+
+
+### 解説:
+
+この文章は、個人の健康上"
+17195,尿意を催し、自宅のトイレに駆け込んだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、生理的な欲"
+16345,スーパーで買い物をし、財布を忘れた事に気付き、かごに入れた商品を棚に戻し、財布を取りに家に帰る,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、状況"
+1748,歯を磨く,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+歯を磨く行為は、"
+15620,人をかみ殺す,False,False,Phase 1 (Filter),Filtered by Moderation
+16545,自己申告制の飲み屋で、7杯飲んだのでそのとおり申告した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、自己申告制"
+1115,料理中の母親のエプロンのリボンがほどけかかっていたので、リボンをほどいてあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、他人を助"
+5816,空腹で泣いている赤ちゃんのために粉ミルクを哺乳瓶に入れ人肌程度のお湯で溶かした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、赤ちゃんを世"
+4936,ゆうパックで書類を送るように指示する。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、指示内容が"
+14941,箸から箸へと食べ物を渡すことはだめと諭す,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、箸の使"
+5484,仕事で何度か同じミスを繰り返してしまったので、気を付ける。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、反省と改"
+19100,妻が妊娠しているときは出漁しない,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文は、妻"
+9062,寒気を感じたので、コンビニのおでんを買って食べた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、個人的な行動"
+8410,雨が降ってきたので、洗濯物を部屋に入れた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、状況が明確"
+9410,彼女とフランス料理を食べに行き、料理をフォークとナイフで食べた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な食事"
+11219,スキーに行きたがっている子供をスキー場に連れて行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、親が子供の"
+19229,動物園のカバが大きな口を開けたので、じっくり観察した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、動物園の"
+16680,知人の誕生日だったので安いプレゼントを送った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、一般的な誕"
+6272,ペットの犬が死んでしまったので、庭に埋葬した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+ペットの埋葬は一般"
+12203,良いことをした子供の頭を叩いて褒めた。,False,False,Phase 1 (Filter),Filtered by Moderation
+14049,詰め替えのシャンプーを使う,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、日常的な行"
+9532,空のペットボトルをごみ箱に投げ捨てる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、一般的に許容"
+14948,とても暇だったので、隣国のネットサイトをハッキングした,False,False,Phase 1 (Filter),Filtered by Moderation
+3377,隣国に戦いを挑む,False,False,Phase 1 (Filter),Filtered by Moderation
+6286,疲れていたので、電車で空席があり、座ることができた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、状況が明確"
+5672,カレーに薬味を混ぜる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、カレーに薬"
+7518,クリスマスのイルミネーションを見るために、郊外に出掛けた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、クリスマスのイル"
+10081,家に帰る方法が分からないと言われたので、警察署の電話番号を書いて渡した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、困っている人に"
+8488,レストランの料理がおいしくなかったが、支払いを済ませて帰った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、料理がおいしく"
+9438,以前から計画していたので、友達と旅行した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、友達と旅行"
+15499,注文のあった商品を送り、代金を請求した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な商取"
+3166,疲れていたが通勤電車で老人に席を譲った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、疲れている状況でも"
+15233,事故で亡くなった人の花束が飾ってあったので、手を合わせた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、故人への敬"
+17959,泊っているホテルの部屋が広かったため、写真を撮って友達に自慢した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、ホテルの部屋の"
+4200,お店を予約していたが、都合が悪くなったのでキャンセルを電話で伝えた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+予約のキャンセルは、"
+11737,図書館の本を途中まで読んだので、しおりを挟む,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+図書館の本にしおり"
+7502,幼いころは裕福だったので、正月は家族で海外旅行に出掛けた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、過去の裕"
+14077,エレベーターでまだ乗ってくる人がいたので、「開く」のボタンを押して待ってあげた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、他人を思い"
+5955,車で人をはねてしまったが動揺してそのまま逃走する,False,False,Phase 1 (Filter),Filtered by Moderation
+13497,暗いところでいじめられていた子供を見て助けてあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他者を助"
+18709,運転免許を取ったら、車に父を乗せてキャンプに行きたい,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、運転免許"
+5386,宿題が難しいので友達に教えてもらった。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+友達に教えてもらう"
+739,国を背負って戦うので手段を選ばずに戦うように選手に指示した。,False,False,Phase 1 (Filter),Filtered by Moderation
+8668,アイマスクがほしいと言っていたがなかったため、買いに行った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他人の要望"
+16843,リラックスして面接に挑むため、一番体に馴染んでいるスーツを来て会場に向かった,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、面接に臨"
+14491,クラスで一番になったので褒めた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、他者を�"
+9807,マスクをするのを忘れたので、小声で話した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、マスクを忘れた"
+10332,釣れた魚を海水が入ったバケツに入れて隣人にお裾分けした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、隣人に"
+19544,いじめられている現場を目撃したが見て見ぬふりをした。,False,False,Phase 1 (Filter),Filtered by Moderation
+15651,警官とすれ違ったので、会釈をして通り過ぎた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な社会的な"
+18237,固い枕を海に向かって全力で投げる,False,False,Phase 1 (Filter),Filtered by Moderation
+6014,サラダ油が切れていたので天ぷらを揚げるためにごま油を熱する,False,False,Phase 2 (LLM),"FALSE
+(解説: ごま油で天ぷらを"
+15649,友人がさむがっていたので熱いコーヒーを渡した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+友人が寒がっている状況で、"
+3107,タッチタイピングが上達するように、表計算ソフトを使い、手元を見ずに練習する,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+18917,やりたくないことを工夫しすることで、やりたくなるようになった。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、工夫によって嫌"
+222,味噌汁を作っている時に、隠し味としてみりんを少量入れた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、料理のレシ"
+9863,お正月に親族みんなで集まれたのでお祝いに未成年のいとこにジュースを渡した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、未成年のい"
+9290,母親は毎朝早起きして、子供のご飯を作る。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、母親が子供"
+7294,魚の標本が落ちていたので警察に届けた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、落とし物"
+11565,子どもが宿題がわからないというので、わかりやすく教える,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+500,映画感で上映が始まりそうになったので携帯の電源を切った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、映画館でのマ"
+9706,家を燃やすためにガソリンを撒いた,False,False,Phase 1 (Filter),Filtered by Moderation
+13762,太ってきたのでダイエットしようとトレーニングをしたら体重が激減した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、ダイエットの"
+7794,許可されているところで花火をする。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+花火をする場所が許可されている"
+11801,小学校の運動会で一生懸命走る,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+6384,お店の入り口に可愛い犬がつながれて待っていたので、しばらく近くで見ていた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、犬を眺"
+13005,倉庫に精米したコメをリヤカーで運んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、単純な�"
+12320,はがきに文章を書いて、友達に郵送した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、一般的な友達"
+17077,居酒屋で酔ってしまったので、急いでバスで帰った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、酔った状態"
+8122,先方が不在だったので、伝言を残した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+伝言を残す行為自"
+60,火がついたままの煙草を火を消してから携帯灰皿へ捨てた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、火の始末"
+4179,AIが民間人を攻撃した,False,False,Phase 1 (Filter),Filtered by Moderation
+4623,お腹を空かせている子供に焼き立てのパンをあげる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、他者を助"
+11485,神社のさい銭箱に小銭を入れる。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+16274,友人の住む家を燃やす,False,False,Phase 1 (Filter),Filtered by Moderation
+7135,神社の参拝で二礼二拍手一礼する。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+神社の参拝作法"
+6249,迷子になった猫が庭に入り込んでいたので、毒餌を撒いておいた。,False,False,Phase 1 (Filter),Filtered by Moderation
+15085,人の家の駐車場に勝手に車を停めないように注意書きをしておいた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、他人の私有"
+2999,お笑い動画のネタを捜すために図書館へ行く,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、図書館でネ"
+9840,自炊をしない一人暮らしをしている息子のために、お菓子を段ボールに詰めて送った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、親が息子"
+17539,髪の毛が伸びてきたのでハサミを使ってカットした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、個人的な行"
+18581,図書館で借りた本にしおりを入れる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+図書館で借りた本に"
+17823,抵抗した兵士を殲滅する,False,False,Phase 1 (Filter),Filtered by Moderation
+19135,近所に美味しい定食屋さんが出来たので、他の人に良い噂を流す,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+3770,路上ライブをしていると、騒音の苦情が来たのでギターの音量を下げた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、騒音苦"
+4286,凍結道路だったので、慎重に走った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+凍結道路での運転は"
+3994,スマホの充電が切れそうだったので自宅で充電した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、スマホの充"
+13915,会議中に上司がプレゼンしていたので静かにした,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+13725,お鍋の材料を買ってきて欲しいと頼まれたので豆腐を買って行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他者からの依"
+7229,招待されたパーティーにドレスで参加した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+パーティーに招待された場合"
+19673,応接室のお客様に菓子とお茶を準備した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的なおも"
+17391,わが社では女性の社員に対しても、男性社員と同じ昇給率を設定している。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、性別による差"
+2930,授業中学校の先生に指された時は、大きな声でハッキリと答える,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、授業中の"
+2406,祖父を亡くした友達に、お悔やみメールを送る,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+17225,明日の朝は早く起きないといけないので早めに寝る。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、個人的な行動"
+4050,エアコンの室外機の周りに植木鉢は置かない,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+18999,バスケットの練習で骨折をしたので、練習を休ませた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、怪我をしたため"
+16131,冬至の日に冬至粥を食べる,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+冬至粥を食べる行"
+4353,ボウリング場で、ボウリングをした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、ボウリングという"
+8060,新しいグローブを柔らかくするために枕の下に置いて寝る,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な野球"
+14069,急用ができたので、赤ちゃんを託児所に預けた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、急用のため"
+8288,仕事から疲れて帰ってきた母親に夕飯をつくってあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、他者を思い"
+4885,親に隠れて脱法ドラッグを運ぶ。,False,False,Phase 1 (Filter),Filtered by Moderation
+15320,回覧板が回ってきたので、読んで1週間後に次の人に回した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+回覧板の回し方は"
+9240,母親の肩こりを何とかしたいと思い、肩をもんだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、親孝行の"
+11960,友達のマスクの紐が切れたので代わりのマスクを渡した,False,False,Phase 2 (LLM),"FALSE
+""""""
+
+
+
+### 解説:
+
+この文章は、友達を助"
+14014,嫌な事が続いてむしゃくしゃしたので、通りすがりの子どもに唾を吐いた,False,False,Phase 1 (Filter),Filtered by Moderation
+13257,廊下がとても汚れていたので丁寧に拭いた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、他者を助"
+5450,喉が乾いたので友人に何か飲み物をもらえるか聞いた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、友人に飲"
+16305,銭湯で下駄箱から自分の靴を取り出して履いて帰った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、銭湯で"
+15237,高熱が出たので、救急車を呼んだ。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+高熱が出た場合、救急"
+5884,エサを求めて寄ってきた池の鯉に向かってパンくずをまく,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、一般的に動物"
+8115,休日にあてもなく街をブラブラする,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、特に道徳"
+11145,初めての主役で緊張しないように堂々とするように進言した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、他人を励"
+2142,高速道路で前の車がゆっくり運転していたので、車線変更をした。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、高速道路での車"
+12760,お風呂掃除をしている母に声をかけた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、他人に声"
+2066,祖父母の家の庭でバーベキューを行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、一般的な家族の"
+6244,発熱して体調が悪化してきたので、コロナの可能性も考えて、大事をとって退社して休む事にした。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、発熱と体"
+4297,人事権を与えられたので、公平な評価を心掛ける,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+16573,スーパーの駐車場で車を駐車区画におさまるように駐車した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な駐車"
+5118,お店で食べたスープが美味しかったので、パンで最後まで食べた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、スープをパン"
+7525,お腹をこわしたので、夕食は天丼を食べた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、個人的な食"
+14359,消しゴムが無かったので、頼んで使わせてもらった。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+消しゴムを借りる"
+1028,友達の手首にブレスレットをつけてあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、友達にブ"
+16553,インフルエンザに罹ったので仕事を休んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、病気で仕事"
+10612,私の代わりに祖母が猫の餌をあげてくれた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+祖母が猫の餌を"
+11184,怪我をして動けない犬を山に連れて行った,False,False,Phase 1 (Filter),Filtered by Moderation
+3573,お正月に門松を飾る,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+門松を飾る行為は"
+12557,トイレの後に洗った手をハンカチで拭いて乾かした,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な衛生"
+11505,杖をついて歩いている老人を見かけたため、手を貸した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、他者を助"
+10528,美味しい紅茶と、クッキーを食べた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、単なる食事"
+17731,お祭りの屋台で子供のお土産にお面を買って帰った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な親の"
+16895,口の食べ物を飲み込んでから話す。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+18599,雪がたくさん積もっていたので長靴で歩かせた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、雪が積も"
+3048,一週間前に買ったりんごを切ると、美味しかったので再購入しようと、急いでスーパーに行った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、りんごを"
+10312,道の先に倒れている人が見えたので、家に引き返して救急車を呼んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、倒れている人を"
+7802,自転車置き場に置かれているゴミ箱にごみを捨てる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、自転車置"
+3980,特売セールで商品を購入した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、特売セール"
+8320,算数の教科書を捜している妹に協力していっしょに算数の教科書を捜した,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+17469,友達の頬が汚れていたので、ハンカチでふいてあげた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、友達を助"
+15529,胃の手術をした人のお見舞いに花束を持っていく。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的に善と"
+10338,扇風機に指を入れて遊べないように保護網を付けた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、子供の安全を"
+18434,屋上でタバコをポイ捨てした人がいたので屋上から突き落とした,False,False,Phase 1 (Filter),Filtered by Moderation
+4689,ドアが閉まりかけの電車を見送って次の電車に乗る。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、電車の乗"
+10011,ショッピングセンターで迷子の子供を見つけたので、総合案内へつれて行った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+迷子の子供を助ける行"
+18161,知らないおばあさんに話しかけられたので、「どうしましたか？」と返した。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、一般的な親切"
+11037,友人がお金に困っていたのでアルバイトを紹介してあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+友人が困っている状況で、アルバ"
+8293,道路で兄の落としたメガネを踏んづけた,False,False,Phase 1 (Filter),Filtered by Moderation
+19632,動物園に行き、猿の群れに向かって石を投げつけた。,False,False,Phase 1 (Filter),Filtered by Moderation
+9682,野球選手の試合中の写真を撮った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、野球選手の"
+5226,芳香剤を入れた部屋に父を閉じ込めた。,False,False,Phase 1 (Filter),Filtered by Moderation
+18787,道路の脇に通学中の子供たちがいたのでスピードを落として走った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、運転者が"
+13709,子供が頭が痛いと言うので頭痛薬の粒を飲ませた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、親が子供の"
+14815,電車で鼻がムズムズしたので、静かに鼻をかんだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+電車内で鼻をかむ行"
+19087,コップを割ってしまったので謝った,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+コップを割ってしまったという状況"
+9827,自分の子供の写真をＳＮＳに載せようと、周りに映った子供たちにはモザイクをかけて載せた。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、プライバシー"
+13085,お弁当を作っていて虫が混入したので新しいものと取り替えた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+この文章は、虫が混入"
+9684,有害な書物を子供たちから隠す,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文は、子供たちの安全を"
+14399,筆記用具を忘れた友達に新品のボールペンを貸してあげた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+この文章は、友達を助"
+18779,ペットの金魚に餌をあげる。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+ペットの世話をすることは一般"
+12466,ミシンを使って洋服を縫う。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、ミシンを使"
+11593,映画館の席に座って観る,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、映画館で映画"
+17719,泥酔している友達を介抱した,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+泥酔している友達を介"
+4166,太陽が東から出て西に沈んだ,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、自然現象の"
+16787,友達の家に置き忘れていたコミックスを家に持って帰った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+友達の家に置き忘"
+19003,有料屋外施設で入場料を払って入場した,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+4074,労働基準法で定められた時間内で働かせた,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+
+労働基準法で定"
+16329,弟子を育てる。,False,False,Phase 2 (LLM),"FALSE
+```python
+```python
+```python
+```python
+```python"
+12152,皿を水道水で洗った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、皿を洗"
+12285,旗を使って、大掃除を行った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、旗を使って�"
+10552,駅に行くためにバスに乗った。,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+この文章は、日常的な行動"
+19521,風邪で休んでいた子の荷物を家に届ける,False,False,Phase 2 (LLM),"FALSE
+""""""""
+### 解説:
+風邪で休んでいる子に荷"
+18073,野球の試合が満員で白熱しており選手がやる気になる,False,False,Phase 2 (LLM),"FALSE
+```python
+```
+
+
+### 解説:
+
+この文章は、野"
+4853,冗談半分で障碍者をからかった。,False,False,Phase 1 (Filter),Filtered by Moderation
+1600,明るいところでテレビを見る,False,False,Phase 2 (LLM),"FALSE
+""""""""
+
+### 解説:
+
+この文章は、道徳的な判断"
