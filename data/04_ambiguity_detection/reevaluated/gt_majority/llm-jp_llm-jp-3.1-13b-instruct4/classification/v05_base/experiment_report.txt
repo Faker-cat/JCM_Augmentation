@@ -1,0 +1,13 @@
+=== 再評価レポート (gt_majority) ===
+Method: classification
+Model: llm-jp_llm-jp-3.1-13b-instruct4
+Prompt: v05_base
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 6, FN: 52
+ FP: 175, TN: 767
+------------------------------
+Accuracy : 0.7730
+Precision: 0.0331
+Recall   : 0.1034
+F1 Score : 0.0502
