@@ -1,0 +1,13 @@
+=== 再評価レポート (gt_majority) ===
+Method: fewshot
+Model: llm-jp_llm-jp-3.1-13b-instruct4
+Prompt: v05_base
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 35, FN: 18
+ FP: 399, TN: 448
+------------------------------
+Accuracy : 0.5367
+Precision: 0.0806
+Recall   : 0.6604
+F1 Score : 0.1437

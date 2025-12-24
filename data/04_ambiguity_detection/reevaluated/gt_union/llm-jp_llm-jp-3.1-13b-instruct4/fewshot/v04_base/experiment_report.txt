@@ -1,0 +1,13 @@
+=== 再評価レポート (gt_union) ===
+Method: fewshot
+Model: llm-jp_llm-jp-3.1-13b-instruct4
+Prompt: v04_base
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 85, FN: 11
+ FP: 564, TN: 240
+------------------------------
+Accuracy : 0.3611
+Precision: 0.1310
+Recall   : 0.8854
+F1 Score : 0.2282
