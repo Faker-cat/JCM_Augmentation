@@ -1,7 +1,7 @@
 === 再評価レポート (gt_majority) ===
 Method: stepwise
 Model: llm-jp_llm-jp-3.1-13b-instruct4
-Prompt: v06_stepwise_base
+Prompt: v01_stepwise_base
 ------------------------------
 Confusion Matrix (Target: Ambiguous/True):
  TP: 1, FN: 0
