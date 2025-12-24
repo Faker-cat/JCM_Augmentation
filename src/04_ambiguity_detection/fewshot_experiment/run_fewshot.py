@@ -114,7 +114,9 @@ def run_experiment(args):
     # CSV保存
     res_df = pd.DataFrame(results)
     res_df.to_csv(
-        os.path.join(output_dir, "results.csv"), index=False, encoding="utf-8-sig"
+        os.path.join(output_dir, "fewshot_results.csv"),
+        index=False,
+        encoding="utf-8-sig",
     )
     print(f"Results saved to: {output_dir}")
 
