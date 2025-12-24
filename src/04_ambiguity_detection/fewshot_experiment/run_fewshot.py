@@ -59,10 +59,40 @@ def run_experiment(args):
     # モデルのロード
     model, tokenizer = load_model(args.model_id)
 
+    method_folder = os.path.basename(os.path.dirname(args.prompt_path))
+    prompt_file_name = os.path.splitext(os.path.basename(args.prompt_path))[0]
+
+    # 保存用のファイル名を作成 (例: classification_v01_base.txt)
+    save_filename = f"{method_folder}_{prompt_file_name}.txt"
+
     # 指示文と例示の準備
     with open(args.prompt_path, "r", encoding="utf-8") as f:
         instruction = f.read().strip()
     fewshot_prefix = create_fewshot_prefix(train_df)
+
+    # --- 追加: 最終的なプロンプト(ベース+例示)を保存する処理 ---
+    fewshot_prompt_dir = os.path.join(
+        BASE_DIR, "src", "04_ambiguity_detection", "prompts", "fewshot"
+    )
+    os.makedirs(fewshot_prompt_dir, exist_ok=True)
+
+    # 最終的なプロンプトの構成を確認用に作成 (判定対象部分はダミー)
+    full_prompt_template = (
+        f"{instruction}\n"
+        f"{fewshot_prefix}\n"
+        f"### 判定対象:\n"
+        f"文章: 「[ここに評価対象の文章が入ります]」\n"
+        f"ラベル: [許容できる/許容できない]\n"
+        f"判定:"
+    )
+
+    # 指定されたファイル名で保存
+    prompt_save_path = os.path.join(fewshot_prompt_dir, save_filename)
+    with open(prompt_save_path, "w", encoding="utf-8") as f:
+        f.write(full_prompt_template)
+
+    print(f"Few-shot prompt template saved to: {prompt_save_path}")
+    # ---------------------------------------------------
 
     results = []
     print(f"Starting Few-shot inference: {prompt_name} (Test size: {len(test_df)})")
