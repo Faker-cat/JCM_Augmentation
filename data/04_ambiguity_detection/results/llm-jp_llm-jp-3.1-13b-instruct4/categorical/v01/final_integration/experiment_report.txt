@@ -1,0 +1,17 @@
+=== 最終再評価レポート (Categorical: v01) ===
+Model: llm-jp/llm-jp-3.1-13b-instruct4
+Prompt Set Location: /home/faker/JCM_Augmentation/src/04_ambiguity_detection/categorical_detection/prompt_sets/v01
+------------------------------
+Confusion Matrix (Target: Ambiguous/True):
+ TP: 47, FN: 11
+ FP: 604, TN: 338
+------------------------------
+Accuracy : 0.3850
+Precision: 0.0722
+Recall   : 0.8103
+F1 Score : 0.1326
+------------------------------
+Category Detection Summary (True Count):
+ cat1_logic: 41
+ cat2_label: 54
+ cat3_info: 605
