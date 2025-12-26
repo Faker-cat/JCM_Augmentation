@@ -4,9 +4,6 @@ import os
 import pandas as pd
 from vllm import LLM, SamplingParams
 
-# モデルキャッシュ先を強制指定
-os.environ["HF_HOME"] = "data3/faker"
-
 
 def main():
     parser = argparse.ArgumentParser()
@@ -61,8 +58,8 @@ def main():
         model=args.model_id,
         tensor_parallel_size=args.tensor_parallel_size,
         trust_remote_code=True,
-        max_model_len=4096,  # 【追加】最大長を制限
-        gpu_memory_utilization=0.95,  # 【追加】GPU使用率を少し引き上げる
+        max_model_len=4096,
+        gpu_memory_utilization=0.95,
     )
     sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=1024)
 
