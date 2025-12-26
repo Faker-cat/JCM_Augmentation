@@ -1,3 +1,4 @@
+# プロンプトに基づいて文章Aを補完するスクリプト
 import argparse
 import os
 
