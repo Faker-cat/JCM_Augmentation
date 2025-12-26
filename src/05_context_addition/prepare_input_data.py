@@ -9,7 +9,7 @@ GT_FILE = os.path.join(
 )
 RAW_FILE = os.path.join(BASE_DIR, "data", "00_raw", "JCM_original.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "data", "05_context_addition", "gt_trial_58")
-OUTPUT_FILE = os.path.join(OUTPUT_DIR, "input_with_pairs_58.csv")
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "inputs", "input_with_pairs_58.csv")
 
 
 def main():

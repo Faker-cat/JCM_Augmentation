@@ -12,7 +12,7 @@ def main():
     parser.add_argument(
         "--input_path",
         type=str,
-        default="data/05_context_addition/gt_trial_58/input_with_pairs_58.csv",
+        default="data/05_context_addition/gt_trial_58/inputs/input_with_pairs_58.csv",
     )
     parser.add_argument("--tensor_parallel_size", type=int, default=1)
     args = parser.parse_args()
