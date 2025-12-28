@@ -61,6 +61,7 @@ def main():
         trust_remote_code=True,
         max_model_len=4096,
         gpu_memory_utilization=0.95,
+        download_dir="/data3/faker/.cache/huggingface/hub",
     )
     sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=1024)
 
