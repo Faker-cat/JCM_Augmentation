@@ -1,13 +1,13 @@
 JCM Context Addition Report
 ==================================================
-Date: 2025-12-30 22:52:50
+Date: 2026-01-04 10:52:48
 Model: tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4
 Prompt Method: p01_pair_base
 Total Records: 58
 
 【Step-by-Step Breakdown】
-- Step 1 (Initial LLM OK): 39 records
-- Step 2 (Regenerated LLM OK): 10 records
-- Step 3 (Manual Final Fix): 9 records
+- Step 1 (Initial LLM OK): 34 records
+- Step 2 (Regenerated LLM OK): 14 records
+- Step 3 (Manual Final Fix): 10 records
 ==================================================
 Output file: /home/faker/JCM_Augmentation/data/05_context_addition/gt_trial_58/outputs/p01_pair_base/tokyotech-llm_Llama-3.3-Swallow-70B-Instruct-v0.4/step3_final/final.csv
