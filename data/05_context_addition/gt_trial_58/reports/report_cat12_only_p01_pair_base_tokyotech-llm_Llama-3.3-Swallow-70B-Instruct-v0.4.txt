@@ -1,0 +1,13 @@
+JCM Context Addition Report (Category 1 & 2 Only)
+==================================================
+Date: 2026-01-03 23:36:43
+Model: tokyotech-llm/Llama-3.3-Swallow-70B-Instruct-v0.4
+Prompt Method: p01_pair_base
+Total Targeted Records (Cat 1&2): 32
+
+【Step-by-Step Breakdown】
+- Step 1 (Initial LLM OK): 20 records
+- Step 2 (Regenerated LLM OK): 6 records
+- Step 3 (Manual Final Fix): 6 records
+==================================================
+Note: This report excludes Category 3 (Information Gap).
